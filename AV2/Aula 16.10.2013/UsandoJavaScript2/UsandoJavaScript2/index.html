@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Usando Javascript</title>
+    <script>
+        function mostrarPares() {
+            for (var i = 0; i < 100; i++) {
+                if (i % 2 == 0) {
+                    document.write(i + "<br/>");
+                }
+            }
+        }
+
+        function mostrarImpares() {
+            var i = 0;
+            while (i < 100) {
+                if (i % 2 == 1) {
+                    document.write(i + "<br/>");
+                }
+                i++;
+            }
+        }
+
+        function mostrarMultiplos3() {
+            var i = 0;
+            do {
+                if ((i > 20) && (i < 30)) {
+                    i++;
+                    continue; //vai para a próxima iteração
+                }
+
+                if (i % 3 == 0) {
+                    document.write(i + "<br/>");
+                }
+                i++;
+
+                if (i == 50) {
+                    break; //abandona a estrutura de repetição
+                }
+            } while (i < 100);
+            document.write("Fim da execução.");
+        }
+
+        function diasDaSemana() {
+            var dias = new Array(7);
+            dias[0] = "Domingo";
+            dias[1] = "Segunda-feira";
+            dias[2] = "Terça-feira";
+            dias[3] = "Quarta-feira";
+            dias[4] = "Quinta-feira";
+            dias[5] = "Sexta-feira";
+            dias[6] = "Sábado";
+
+            for (var i in dias) {
+                document.write(dias[i] + "<br/>");
+            }
+        }
+
+        function montarMatriz() {
+            var matriz = new Array(10, 6);
+            for (var i = 0; i < 10; i++) {
+                for (var j = 0; j < 6; j++) {
+                    matriz[i, j] = Math.round(1 + Math.random() * 59);
+                    document.write(matriz[i, j] + " - ");
+                }                
+                document.write("<br/>");
+            }
+        }
+
+        function montarMatrizComLinhasOrdenadas() {
+            var matriz = new Array(10);
+            for (var i = 0; i < matriz.length; i++) {
+                matriz[i] = new Array(6);
+            }
+            for (var i = 0; i < 10; i++) {
+                for (var j = 0; j < 6; j++) {
+                    matriz[i][j] = Math.round(1 + Math.random() * 59);                    
+                }
+                matriz[i].sort(function (a, b) { return a - b; });
+            }
+            for (var i = 0; i < 10; i++) {
+                for (var j = 0; j < 6; j++) {
+                    document.write(matriz[i][j] + ", ");
+                }
+                document.write("<br/>");
+            }
+        }
+
+    </script>
+</head>
+<body onload="montarMatrizComLinhasOrdenadas();">
+</body>
+</html>

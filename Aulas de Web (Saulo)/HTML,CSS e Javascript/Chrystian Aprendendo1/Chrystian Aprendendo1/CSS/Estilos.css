@@ -1,0 +1,72 @@
+﻿body
+{
+    font-family: Calibri, Verdana, Arial;
+    color: White;
+    width: 1000px;
+    background-color: Black;
+}
+.Imag
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+ul.Menu
+{
+    display: inline;
+}
+ul.Menu li
+{
+    display: inline;
+    border-style: groove;
+    border-width: medium;
+    background-color: Green;
+}
+ul.Menu li a
+{
+    text-decoration: none;
+    color: White;
+}
+ul.Menu li a:hover
+{
+    font-size: normal;
+    background-color: White;
+    color: Black;
+}
+.pTexto
+{
+    color: Lime;
+    text-align: justify;
+    width: 800px;
+}
+.aGoogle
+{
+    background-color: Silver;
+    color: Black;
+}
+.aGoogle:hover
+{
+    background-color: #00FF00;
+    text-decoration: underline overline;
+    font-size: large;
+    color: #000000;
+    font-weight: bold;
+}
+.Organization
+{
+    position: absolute;
+    right: auto;
+    left: 105px;
+}
+.Topics
+{
+    font-weight: bold;
+    width: 400px;
+    height: 235px;
+}
+.FotoCanto
+{
+    position: absolute;
+    float: right;
+    left: 565px;
+    top:185px;
+}

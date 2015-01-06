@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Capturando Valores de Campos de Formulário</title>
+    <script>
+        function calcularSoma() {
+            var v1 = document.getElementById("txtV1").value;
+            var v2 = document.getElementById("txtV2").value;
+            var soma = parseInt(v1) + parseInt(v2);
+            document.getElementById("prgResultado").innerText = soma;
+        }
+    </script>
+</head>
+<body>
+    <p>
+        Valor 1:<br />
+        <input type="text" name="txtV1" id="txtV1" value="" />
+    </p>
+    <p>
+        Valor 2:<br />
+        <input type="text" name="txtV2" id="txtV2" value="" />
+    </p>
+    <p>
+        <button type="button" onclick="calcularSoma();">Calcular Soma</button>
+    </p>
+    <p id="prgResultado"></p>
+</body>
+</html>

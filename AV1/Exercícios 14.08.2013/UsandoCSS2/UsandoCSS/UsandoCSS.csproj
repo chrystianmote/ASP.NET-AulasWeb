@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4CFD9534-7207-4ABA-B2D8-91084B907C0C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UsandoCSS</RootNamespace>
+    <AssemblyName>UsandoCSS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contato.htm" />
+    <Content Include="estilos.css" />
+    <Content Include="960gs\app_plugins\fireworks\INSTALL.txt" />
+    <Content Include="960gs\app_plugins\photoshop\INSTALL.txt" />
+    <Content Include="960gs\code\css\960.css" />
+    <Content Include="960gs\code\css\960_12_col.css" />
+    <Content Include="960gs\code\css\960_12_col_rtl.css" />
+    <Content Include="960gs\code\css\960_16_col.css" />
+    <Content Include="960gs\code\css\960_16_col_rtl.css" />
+    <Content Include="960gs\code\css\960_24_col.css" />
+    <Content Include="960gs\code\css\960_24_col_rtl.css" />
+    <Content Include="960gs\code\css\960_rtl.css" />
+    <Content Include="960gs\code\css\demo.css" />
+    <Content Include="960gs\code\css\min\960.css" />
+    <Content Include="960gs\code\css\min\960_12_col.css" />
+    <Content Include="960gs\code\css\min\960_12_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_16_col.css" />
+    <Content Include="960gs\code\css\min\960_16_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_24_col.css" />
+    <Content Include="960gs\code\css\min\960_24_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_rtl.css" />
+    <Content Include="960gs\code\css\min\reset.css" />
+    <Content Include="960gs\code\css\min\reset_rtl.css" />
+    <Content Include="960gs\code\css\min\text.css" />
+    <Content Include="960gs\code\css\min\text_rtl.css" />
+    <Content Include="960gs\code\css\reset.css" />
+    <Content Include="960gs\code\css\reset_rtl.css" />
+    <Content Include="960gs\code\css\text.css" />
+    <Content Include="960gs\code\css\text_rtl.css" />
+    <Content Include="960gs\code\demo.html" />
+    <Content Include="960gs\code\demo_24_col.html" />
+    <Content Include="960gs\code\demo_24_col_rtl.html" />
+    <Content Include="960gs\code\demo_rtl.html" />
+    <Content Include="960gs\code\img\12_col.gif" />
+    <Content Include="960gs\code\img\16_col.gif" />
+    <Content Include="960gs\code\img\24_col.gif" />
+    <Content Include="960gs\licenses\GPL_license.txt" />
+    <Content Include="960gs\licenses\MIT_license.txt" />
+    <Content Include="960gs\logo_files\960_logo.png" />
+    <Content Include="960gs\logo_files\LOGO_USAGE.txt" />
+    <Content Include="960gs\README.txt" />
+    <Content Include="960gs\templates\fireworks\960_grid_12_col.png" />
+    <Content Include="960gs\templates\fireworks\960_grid_16_col.png" />
+    <Content Include="960gs\templates\fireworks\960_grid_24_col.png" />
+    <Content Include="960gs\templates\inkscape\960_grid_12_col.svg" />
+    <Content Include="960gs\templates\inkscape\960_grid_16_col.svg" />
+    <Content Include="960gs\templates\inkscape\960_grid_24_col.svg" />
+    <Content Include="img\fundo.jpg" />
+    <Content Include="img\marcador.png" />
+    <Content Include="index.htm" />
+    <Content Include="portfolio.htm" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="960gs\.gitignore" />
+    <None Include="960gs\app_plugins\fireworks\960.gs Grid Commands.mxp" />
+    <None Include="960gs\app_plugins\fireworks\_source\12 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\16 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\24 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\960.gs Grid Commands.mxi" />
+    <None Include="960gs\app_plugins\photoshop\960_GRIDS.atn" />
+    <None Include="960gs\logo_files\960_logo.ai" />
+    <None Include="960gs\logo_files\960_logo.eps" />
+    <None Include="960gs\logo_files\960_logo.psd" />
+    <None Include="960gs\sketch_sheets\960_sketch_12_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_16_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_24_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_all.pdf" />
+    <None Include="960gs\templates\acorn\960_grid_12_col.acorn" />
+    <None Include="960gs\templates\acorn\960_grid_16_col.acorn" />
+    <None Include="960gs\templates\acorn\960_grid_24_col.acorn" />
+    <None Include="960gs\templates\balsamiq\960_mockups.bmml" />
+    <None Include="960gs\templates\corel_draw\960_grid_12_col.cdt" />
+    <None Include="960gs\templates\corel_draw\960_grid_16_col.cdt" />
+    <None Include="960gs\templates\corel_draw\960_grid_24_col.cdt" />
+    <None Include="960gs\templates\expression_design\960_grid_12_col.design" />
+    <None Include="960gs\templates\expression_design\960_grid_16_col.design" />
+    <None Include="960gs\templates\expression_design\960_grid_24_col.design" />
+    <None Include="960gs\templates\flash\960_grid_12_col.fla" />
+    <None Include="960gs\templates\flash\960_grid_16_col.fla" />
+    <None Include="960gs\templates\flash\960_grid_24_col.fla" />
+    <None Include="960gs\templates\gimp\960_grid_12_col.xcf" />
+    <None Include="960gs\templates\gimp\960_grid_16_col.xcf" />
+    <None Include="960gs\templates\gimp\960_grid_24_col.xcf" />
+    <None Include="960gs\templates\illustrator\960_grid_12_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_12_col_cs5.ait" />
+    <None Include="960gs\templates\illustrator\960_grid_16_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_16_col_cs5.ait" />
+    <None Include="960gs\templates\illustrator\960_grid_24_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_24_col_cs5.ait" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_12_col.inx" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_16_col.inx" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_24_col.inx" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_12_col.idml" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_16_col.idml" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_24_col.idml" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_12_col.indt" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_16_col.indt" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_24_col.indt" />
+    <None Include="960gs\templates\omnigraffle\960_graffle.graffle" />
+    <None Include="960gs\templates\photoshop\960_grid_12_col.psd" />
+    <None Include="960gs\templates\photoshop\960_grid_16_col.psd" />
+    <None Include="960gs\templates\photoshop\960_grid_24_col.psd" />
+    <None Include="960gs\templates\pixelmator\960_grid_12_col.pxm" />
+    <None Include="960gs\templates\pixelmator\960_grid_16_col.pxm" />
+    <None Include="960gs\templates\pixelmator\960_grid_24_col.pxm" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_12_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_16_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_24_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\visio\960_visio.vsd" />
+    <None Include="960gs\templates\xara\960-12-col-grid.xar" />
+    <None Include="960gs\templates\xara\960-16-col-grid.xar" />
+    <None Include="960gs\templates\xara\960-24-col-grid.xar" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49871</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

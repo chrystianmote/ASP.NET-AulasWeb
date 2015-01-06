@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Usando AJAX</title>
+    <script src="Scripts/jquery-2.0.3.js"></script>
+</head>
+<body>
+    <h1>Usando AJAX</h1>
+    <p>
+        <input type="search" id="txtBusca" />
+        <button type="button" id="btnObterNoticias">Obter Notícias</button>
+    </p>
+    <div id="divNoticias">
+    </div>
+    <script>
+        $("#btnObterNoticias").click(function () {
+            var filtro = encodeURIComponent($("#txtBusca").val());
+            $("#divNoticias").load("Noticias.ashx?filtro=" + filtro);
+        });
+    </script>
+</body>
+</html>

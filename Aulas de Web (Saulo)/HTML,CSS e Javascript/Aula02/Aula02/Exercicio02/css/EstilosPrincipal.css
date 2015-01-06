@@ -1,0 +1,118 @@
+﻿body
+{
+    font-family: Tahoma;
+    background-image: url('../img/fundo_conteudo.gif');
+    background-attachment: fixed;
+}
+#divPagina
+{
+    text-align: left;
+    width: 800px;
+    border: solid 2px #FF0000;
+}
+#divCabecalho
+{
+    background-image:url('../img/fundo_cabecalho.jpg');
+    height:200px;
+}
+#divCabecalho h1
+{
+    padding: 10px; /* Margem Interna */
+    color: #FF0000;
+    font-variant: small-caps;
+    font-family: Calibri;
+    text-decoration: underline;
+}
+#divMenusuperior
+{
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-color: #FF0000;
+    background-color: #FF0000;
+    height: 43px;
+    text-align: center;
+    line-height: 41px;
+    background-color: #00CC00;
+    border-bottom-color: #FF0000;
+}
+#divMenusuperior a
+{
+	background-color: #00CC00;
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: small-caps;
+	padding: 13px;
+	color: #000099;
+	text-decoration: none;
+	text-align: center;
+	line-height: 37px;
+	border-right: solid 4px #663300;
+	border-right-color: #000099;
+}
+#divMenusuperior a:hover
+{
+    background-color: #FF0000;
+    color: #EDECB1;
+}
+#divConteudo
+{
+    background-image: url('../img/fundo_pagina.gif');
+    padding:28px;
+}
+#divConteudo p:first-letter
+{
+    font-size: 50px;
+    color: #00FF00;
+}
+#divConteudo p
+{
+    text-indent:30px;
+    text-align:justify;
+    letter-spacing:0.1em;
+}
+#divRodape
+{
+    background-color: White;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+#divConteudo table
+{
+    background-color: #FF0000; 
+}
+#divConteudo table th
+{
+    background-color: #800000;
+    font-weight:bold;
+    color:White;
+    text-align:left;
+}
+#divConteudo table td
+{
+    font-style:italic;
+    text-align:left;
+}
+#divConteudo table tr:hover
+{
+    background-color: White;
+    cursor: pointer;
+}
+/*.colunacentralizada
+{
+    text-align:center;
+}*/
+#divConteudo ul
+{
+    list-style-image:url('../img/marcador1.gif');
+}
+#divConteudo ul ul
+{
+    list-style-image:url('../img/marcador2.gif');
+}
+#divConteudo blockquote:before
+{
+    content:url('../img/marcador3.gif');
+}

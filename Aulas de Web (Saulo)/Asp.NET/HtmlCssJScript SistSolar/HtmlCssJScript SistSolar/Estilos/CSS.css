@@ -1,0 +1,154 @@
+﻿body
+{
+    background-color: Black;
+    font-family: Tahoma,Arial;
+    color: White;
+    width: 100%;
+}
+h1,h2
+{
+    text-align: left;
+    width: 920px;
+    padding-top: 50px;
+}
+ul.Menu
+{
+    display: inline;
+    position: relative;
+    top: 20px;
+}
+ul.Menu li
+{
+    display: inline;
+    font-size: 13px;
+    padding: 5px;
+    border-style: ridge;
+    border-width: medium;
+    background-color: #000080;
+    font-weight: bold;
+}
+ul.Menu li a
+{
+    text-decoration: none;
+    color: #5B9DFF;
+}
+ul.Menu li a:hover
+{
+    color: White;
+    background-color: #FF0000;
+}
+p.Text
+{
+    font-size: medium;
+    text-align: justify;
+    width: 920px;
+}
+.FotCabecalho
+{
+    border: medium solid #FF0000;
+}
+div.tab
+{
+    width: 920px;
+    border: medium outset #0000FF;
+}
+div.tab table
+{
+    background-color: #800000;
+    font-size: medium;
+    text-align: left;
+    width: 100%;
+}
+div.tab table th
+{
+    background-color: #800000;
+    font-weight: bold;
+}
+div.tab table td
+{
+    font-style: italic;
+    text-align: left;
+}
+div.tab table tr:hover
+{
+    background-color: Black;
+    cursor: crosshair;
+}
+div.Cadastro
+{
+    height: auto;
+    width: 920px;
+    color: Black;
+    text-align: left;
+    background-color: White;
+    font-size: small;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.Campo
+{
+    padding:2px;
+    width: 291px;
+}
+input:focus
+{
+    border: 2px solid silver;
+    background-color: Blue;
+    color: white;
+}
+input.Campo:hover
+{
+    border: 2px solid blue;
+}
+input.Botao
+{
+    padding:5px;
+    background-color:Blue;
+    color:White;
+    font-family:Tahoma;
+    font-weight:lighter;
+}
+input.Botao:hover
+{
+     background-color:red;
+     color:white;
+}
+input.Botao:focus
+{
+     background-color:Black;
+     color:white;
+}
+p.TextPlanet
+{
+    position:relative;
+    font-size: medium;
+    text-align: justify;
+    width: 688px;
+    z-index: 10;
+    top: 0px;
+    left: -115px;
+}
+.ImgPlanet
+{
+    position:relative;
+    width:100%;
+    float:right;
+    z-index: 100;
+    top:500px;
+    right: 200px;
+}
+.NomePlanet
+{
+    border-style: groove;
+    border-color: #FF0000;
+    background-color: #060B9D;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    padding: 2px;
+}
+.Sexo
+{
+    color: Black;
+}

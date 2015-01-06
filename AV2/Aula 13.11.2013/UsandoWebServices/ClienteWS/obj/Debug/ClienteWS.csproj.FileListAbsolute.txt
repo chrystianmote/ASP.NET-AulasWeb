@@ -1,0 +1,4 @@
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\ClienteWS\bin\ClienteWS.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\ClienteWS\bin\ClienteWS.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\ClienteWS\obj\Debug\ClienteWS.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\ClienteWS\obj\Debug\ClienteWS.pdb

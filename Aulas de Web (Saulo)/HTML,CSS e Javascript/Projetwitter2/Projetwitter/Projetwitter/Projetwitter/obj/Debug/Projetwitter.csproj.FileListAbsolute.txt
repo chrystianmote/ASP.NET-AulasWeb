@@ -1,0 +1,20 @@
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\bin\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\bin\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\Projetwitter.pdb
+C:\Users\SAULO\Desktop\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.dll
+C:\Users\SAULO\Desktop\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.pdb
+C:\Users\SAULO\Desktop\Projetwitter\Projetwitter\Projetwitter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Desktop\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.dll
+C:\Users\SAULO\Desktop\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas de Web (Saulo)\HTML,CSS e Javascript\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas de Web (Saulo)\HTML,CSS e Javascript\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\bin\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas de Web (Saulo)\HTML,CSS e Javascript\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas de Web (Saulo)\HTML,CSS e Javascript\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas de Web (Saulo)\HTML,CSS e Javascript\Projetwitter2\Projetwitter\Projetwitter\Projetwitter\obj\Debug\Projetwitter.pdb

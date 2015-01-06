@@ -1,0 +1,95 @@
+﻿body
+{
+    font-family: Verdana, Sans-Serif;
+    background-image: url('img/fundo.jpg');
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+h1
+{
+    margin: 0px;
+    padding: 0px;
+}
+p
+{
+    font-size: 26px;
+}
+.vermelho
+{
+    color: Red;
+}
+.negrito
+{
+    font-weight: bold;
+}
+#menu
+{
+    font-variant: small-caps;
+    display: inline-block;
+}
+#menu, #menu li
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#menu > li
+{
+    display: inline-block;
+    margin: 10px;
+}
+#menu > li > a
+{
+    display: inline-block;
+    padding: 10px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#menu > li > a.ativo
+{
+    background-color: #666;
+    color: #fff;
+}
+#menu > li > a:hover
+{
+    background-color: #eee;
+    color: #333;
+}
+#pagina
+{
+    width: 920px;
+    margin: 0 auto;
+    border-left: solid 1px silver;
+    border-right: solid 1px silver;
+    padding: 20px;
+    background-color: #fff;
+    opacity: 0.6;
+}
+div.centralizado
+{
+    text-align: center;
+}
+ul.portfolio
+{
+    list-style-image: url('img/marcador.png');
+}
+div.blocos > div
+{
+    float: left;
+    width: 33.33%;
+    text-align: justify;
+}
+div.blocos > div > div
+{
+    padding: 0 15px;
+    margin:10px;
+    border-radius: 10px;
+    border: dotted 1px silver;
+    
+}
+div.clearfix
+{
+    clear: both;
+}

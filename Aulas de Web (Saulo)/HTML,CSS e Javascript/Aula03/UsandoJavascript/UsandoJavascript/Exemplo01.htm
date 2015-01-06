@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Exemplo 01</title>
+    <script type="text/javascript">
+        function MeuScript() {
+        //esta função mostra uma mensagem//
+            window.alert("Bem-vindo ao meu site!");
+        }
+    </script>
+    <script src="Scripts.js" type="text/javascript"></script>
+</head>
+<body onload="MeuScript();">
+    <script type="text/javascript">
+        {
+            /*o comando document.write
+            insere um comentário na página*/
+            document.write("<h1>Olá pessoal!</h1>");
+            document.write("<h3>Esta é minha primeira página com Javascript!</h3>");
+        }
+    </script>
+    <h3 onclick="MeuOutroScript();"><a href="#">Texto após o Javascript!</a></h3>
+</body>
+</html>

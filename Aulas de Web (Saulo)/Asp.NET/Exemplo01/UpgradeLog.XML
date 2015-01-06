@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Exemplo01">
+</Property><Property Name="Arquivo de Solução" Value="D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Exemplo01.sln">
+</Property><Property Name="Arquivo de Opções do usuário" Value="D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Exemplo01.suo">
+</Property><Property Name="Date" Value="segunda-feira, 6 de fevereiro de 2012">
+</Property><Property Name="Time" Value="01:02">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Exemplo01.sln" Description="O backup do arquivo como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01.sln foi feito com êxito">
+</Event><Event ErrorLevel="0" Project="" Source="Exemplo01.suo" Description="O backup do arquivo como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01.suo foi feito com êxito">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Exemplo01.csproj" Description="O backup do arquivo de projeto foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Exemplo01.csproj">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Exemplo01.csproj.user" Description="O backup do arquivo de projeto do usuário foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Exemplo01.csproj.user">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Conversor.aspx.cs" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Conversor.aspx.cs">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Conversor.aspx.designer.cs" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Conversor.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Properties\AssemblyInfo.cs" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Conversor.aspx" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Conversor.aspx">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Conversor.htm" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Conversor.htm">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Imagens\foto.jpg" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Imagens\foto.jpg">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Imagens\grafico0.png" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Imagens\grafico0.png">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Imagens\grafico1.png" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Imagens\grafico1.png">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Imagens\grafico2.png" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Imagens\grafico2.png">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Web.config" Description="O backup do arquivo foi concluído com êxito como D:\Dropbox\Saulo Dropbox\Aulas com Professor Saulo\ASP.NET\Exemplo01\Backup\Exemplo01\Web.config">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Exemplo01.csproj" Description="Projeto convertido com sucesso">
+</Event><Event ErrorLevel="3" Project="Exemplo01" Source="Exemplo01\Exemplo01.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Exemplo01.sln" Description="Solução convertida com êxito">
+</Event><Event ErrorLevel="3" Project="" Source="Exemplo01.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Exemplo01" Source="Exemplo01\Exemplo01.csproj" Description="Escaneamento completo: Atualização não requerida para arquivos de projeto.">
+</Event></UpgradeLog>

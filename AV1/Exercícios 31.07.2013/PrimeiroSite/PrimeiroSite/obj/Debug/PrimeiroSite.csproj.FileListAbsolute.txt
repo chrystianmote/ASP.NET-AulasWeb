@@ -1,0 +1,10 @@
+D:\Maroquio\Programação Web\Aula31.07.2013\PrimeiroSite\PrimeiroSite\bin\PrimeiroSite.dll
+D:\Maroquio\Programação Web\Aula31.07.2013\PrimeiroSite\PrimeiroSite\bin\PrimeiroSite.pdb
+D:\Maroquio\Programação Web\Aula31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\ResolveAssemblyReference.cache
+D:\Maroquio\Programação Web\Aula31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\PrimeiroSite.dll
+D:\Maroquio\Programação Web\Aula31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\PrimeiroSite.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 31.07.2013\PrimeiroSite\PrimeiroSite\bin\PrimeiroSite.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 31.07.2013\PrimeiroSite\PrimeiroSite\bin\PrimeiroSite.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\ResolveAssemblyReference.cache
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\PrimeiroSite.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 31.07.2013\PrimeiroSite\PrimeiroSite\obj\Debug\PrimeiroSite.pdb

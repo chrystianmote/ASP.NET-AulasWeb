@@ -1,0 +1,5 @@
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML\UsandoHTML\bin\UsandoHTML.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML\UsandoHTML\bin\UsandoHTML.pdb
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML\UsandoHTML\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML\UsandoHTML\obj\Debug\UsandoHTML.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML\UsandoHTML\obj\Debug\UsandoHTML.pdb

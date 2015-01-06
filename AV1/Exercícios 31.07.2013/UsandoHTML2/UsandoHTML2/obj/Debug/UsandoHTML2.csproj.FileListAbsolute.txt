@@ -1,0 +1,10 @@
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML2\UsandoHTML2\bin\UsandoHTML2.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML2\UsandoHTML2\bin\UsandoHTML2.pdb
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML2\UsandoHTML2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML2\UsandoHTML2\obj\Debug\UsandoHTML2.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoHTML2\UsandoHTML2\obj\Debug\UsandoHTML2.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Exercícios 31.07.2013\UsandoHTML2\UsandoHTML2\bin\UsandoHTML2.dll
+C:\Users\ALuno.LAB1-01\Desktop\Exercícios 31.07.2013\UsandoHTML2\UsandoHTML2\bin\UsandoHTML2.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Exercícios 31.07.2013\UsandoHTML2\UsandoHTML2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\Exercícios 31.07.2013\UsandoHTML2\UsandoHTML2\obj\Debug\UsandoHTML2.dll
+C:\Users\ALuno.LAB1-01\Desktop\Exercícios 31.07.2013\UsandoHTML2\UsandoHTML2\obj\Debug\UsandoHTML2.pdb

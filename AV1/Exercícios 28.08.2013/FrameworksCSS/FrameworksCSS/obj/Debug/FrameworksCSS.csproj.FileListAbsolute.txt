@@ -1,0 +1,15 @@
+D:\Maroquio\Programação Web\Aula.21.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.dll
+D:\Maroquio\Programação Web\Aula.21.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.pdb
+D:\Maroquio\Programação Web\Aula.21.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\ResolveAssemblyReference.cache
+D:\Maroquio\Programação Web\Aula.21.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.dll
+D:\Maroquio\Programação Web\Aula.21.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.pdb
+D:\Meus documentos\SISTEMAS DE INFORMAÇÃO UNES\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.dll
+D:\Meus documentos\SISTEMAS DE INFORMAÇÃO UNES\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\bin\FrameworksCSS.pdb
+D:\Meus documentos\SISTEMAS DE INFORMAÇÃO UNES\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\ResolveAssemblyReference.cache
+D:\Meus documentos\SISTEMAS DE INFORMAÇÃO UNES\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.dll
+D:\Meus documentos\SISTEMAS DE INFORMAÇÃO UNES\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Aula.28.08.2013\FrameworksCSS\FrameworksCSS\obj\Debug\FrameworksCSS.pdb

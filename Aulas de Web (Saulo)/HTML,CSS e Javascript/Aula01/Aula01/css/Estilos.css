@@ -1,0 +1,89 @@
+﻿/*Define o estilo da página como um todo*/
+body
+{
+    font-family: Calibri, Verdana, Arial, Times New Roman;
+    background-color: Black;
+    color: White;
+}
+/*Formatação da div geral que envolve todo o conteúdo*/
+.divCorpo
+{
+    /*Tipo posicionamento da div*/
+    position: absolute; /*Se afasta 140px da esquerda*/
+    left: 140px; /*Se afasta 20px do topo*/
+    top: 20px; /*Configurações da borda*/
+    border: thick dashed #00FF00; /*Largura da div*/
+    width: 1050px;
+}
+/*div que tem o conteúdo de texto*/
+.divConteudo
+{
+    /*Afasto a div 25px da borda da divCorpo*/
+    padding-left: 25px;
+}
+/*Borda da imagem do cabeçalho*/
+.BordaCabecalho
+{
+    /*Configurações da borda*/
+    border: medium dotted #FF0000;
+}
+/*Configurações de aparência do parágrafo do texto*/
+.pTexto
+{
+    text-align: justify;
+    width: 1000px;
+}
+/*Configurações visuais ta tag span (44)*/
+.SpanFrase
+{
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+/*Configurações do link de redirecionamento do Google*/
+.aGoogle
+{
+    color: Fuchsia;
+    text-decoration: none;
+}
+/*Configurações de aparência quando eu passo o mouse em cima do link*/
+.aGoogle:hover
+{
+    color: Lime;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: xx-large;
+}
+/*Ponho a tag ul na horizontal*/
+ul.Menu
+{
+    display: inline;
+}
+/*Ponho os itens da tag ul na horizontal e configuro a aparencia deles*/
+ul.Menu li
+{
+    display: inline; /*tamanho da fonte*/
+    font-size: larger; /*background da tag li*/
+    background-image: url('../imagens/fundo-item-menu.jpg'); /*background se repete*/
+    background-repeat: repeat;
+}
+/*Configurações de aparência do link (a) dentro do item do ul (li)*/
+ul.Menu li a
+{
+    /*Cor do texto*/
+    color: Fuchsia; /*Decoração*/
+    text-decoration: none;
+}
+/*Configurações da aparência do link quando passo o mouse por cima dele*/
+ul.Menu li a:hover
+{
+    /*Cor do texto*/
+    color: #FF0000;
+    /*Decoração do texto*/
+    text-decoration: underline;
+}
+/*Grupos de tags que recebem a mesma formatação visual*/
+/*Usado para reaproveitar formatações css em várias tags diferentes*/
+h2, h5, h6
+{
+}

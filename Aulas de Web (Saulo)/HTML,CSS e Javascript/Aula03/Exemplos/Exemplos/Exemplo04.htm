@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var dataAtual = new Date();
+        document.write(dataAtual.getDate() + "<br/>"); //dia do mês entre 1 e 31
+        document.write(dataAtual.getMonth() + "<br/>"); //mês entre 0 e 11
+        document.write(dataAtual.getFullYear() + "<br/>"); //ano
+        document.write(dataAtual.getDay() + "<br/>"); //dia da semana entre 0 e 6
+        document.write(dataAtual.getHours() + "<br/>"); //hora entre 0 e 23
+        document.write(dataAtual.getMinutes() + "<br/>"); //minutos entre 0 e 59
+        document.write(dataAtual.getSeconds() + "<br/>"); //segundos entre 0 e 59
+        document.write(dataAtual.getMilliseconds() + "<br/>"); //milisegundos de 0 a 1000
+        document.write(dataAtual.toLocaleDateString() + "<br/>"); //data longa
+        document.write(dataAtual.toLocaleTimeString() + "<br/>"); //hora longa
+        document.write(dataAtual.toLocaleString() + "<br/>"); //data/hora longas
+        
+        var outraData = new Date(1979, 6, 31); //cria uma data pré-definida
+        document.write(outraData.toLocaleDateString() + "<br/>");
+        document.write(outraData.getDay() + "<br/>");
+    </script>
+</body>
+</html>

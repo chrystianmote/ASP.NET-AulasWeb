@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    {
+    //entrada de dados
+var nome = window.prompt("Qual o nome de seu cachorro?", "Totó");
+var idade = window.prompt("Qual a idade de " + nome + "?", "2");
+var temBranco = window.confirm(nome + " possui a cor branca?");
+var temPreto = window.confirm(nome + " possui a cor preta?");
+//processamento e saída de dados
+var situacao = (idade > 12) ? "está perto de morrer." : "está bem.";
+document.write(nome + " " + situacao + "<br/>");
+if (temBranco && temPreto) {
+  document.write(nome + " é malhado. Deve ser misturado...<br/>");
+}
+if ((temBranco && !temPreto) || (!temBranco && temPreto)) {
+  document.write(nome + " é de raça pura!<br/>");
+}
+if (!temBranco && !temPreto) {
+  document.write(nome + " é um baita vira-lata!<br/>");
+}
+document.write("Obrigado por nos consultar!<br/>");
+}
+</script>
+
+</body>
+</html>

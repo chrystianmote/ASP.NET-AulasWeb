@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ObterValor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codigoProduto" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterValorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ObterValorResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProduto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="codigoProduto" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterProdutoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObterProdutoResult" type="tns:Produto" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Produto">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Codigo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Preco" type="s:decimal" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObterValorSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterValor" />
+  </wsdl:message>
+  <wsdl:message name="ObterValorSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterValorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObterProdutoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterProduto" />
+  </wsdl:message>
+  <wsdl:message name="ObterProdutoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterProdutoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServicesSoap">
+    <wsdl:operation name="ObterValor">
+      <wsdl:input message="tns:ObterValorSoapIn" />
+      <wsdl:output message="tns:ObterValorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterProduto">
+      <wsdl:input message="tns:ObterProdutoSoapIn" />
+      <wsdl:output message="tns:ObterProdutoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicesSoap" type="tns:ServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterValor">
+      <soap:operation soapAction="http://tempuri.org/ObterValor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProduto">
+      <soap:operation soapAction="http://tempuri.org/ObterProduto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicesSoap12" type="tns:ServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterValor">
+      <soap12:operation soapAction="http://tempuri.org/ObterValor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterProduto">
+      <soap12:operation soapAction="http://tempuri.org/ObterProduto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Services">
+    <wsdl:port name="ServicesSoap" binding="tns:ServicesSoap">
+      <soap:address location="http://localhost:49179/Services.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicesSoap12" binding="tns:ServicesSoap12">
+      <soap12:address location="http://localhost:49179/Services.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <style type="text/css">
+        .h120
+        {
+            height: 120px;
+        }
+        .h180
+        {
+            height: 180px;
+        }
+        .h580
+        {
+            height: 580px;
+        }
+        .mt20
+        {
+            margin-top: 20px;
+        }
+        .cor1
+        {
+            background-color: #eee;
+        }
+        .cor2
+        {
+            background-color: #bbb;
+        }
+        .cor3
+        {
+            background-color: #999;
+        }
+        .cor4
+        {
+            background-color: #666;
+        }
+        .bloco > div
+        {
+            text-align:center;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        
+        .bloco > div > h4
+        {
+            margin: 0;
+        }
+        
+        .bloco > ul
+        {
+            padding:20px;
+            border:solid 1px #BBB;
+            list-style-type:none;
+        }
+        .bloco > ul a > img
+        {
+            margin:10px 0;
+        }
+        
+        .item-inline
+        {
+            border: dotted 1px #555;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            margin-bottom:20px;
+        }
+        .item-inline.desc
+        {
+            height:75px;
+            overflow: hidden;
+            padding: 10px 0;            
+        }
+        .gradgray
+        {
+            background: #cccccc;
+            background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+            background: -moz-linear-gradient(top,  #cccccc 0%, #eeeeee 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cccccc), color-stop(100%,#eeeeee));
+            background: -webkit-linear-gradient(top,  #cccccc 0%,#eeeeee 100%);
+            background: -o-linear-gradient(top,  #cccccc 0%,#eeeeee 100%);
+            background: -ms-linear-gradient(top,  #cccccc 0%,#eeeeee 100%);
+            background: linear-gradient(to bottom,  #cccccc 0%,#eeeeee 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 );
+            border:solid 1px #aaa;
+            border-bottom-style: none;
+        }
+    </style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="bootstrap/assets/js/html5shiv.js"></script>
+    <script src="bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+  <style type="text/css">
+    .gradgray {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-2 gradgray h120">
+            </div>
+            <div class="col-md-6 gradgray h120">
+            </div>
+            <div class="col-md-4 gradgray h120">
+                <div style="height:80px">
+                </div>
+                <div class="input-group">
+                <input type="text" class="form-control">
+                    <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Vai!</button>
+                     </span>
+                 </div>
+            </div>
+        </div>
+        <div class="row mt20">
+            <div class="col-md-3">
+                <div class="bloco">
+                    <div class="gradgray">
+                        <h4>Categorias</h4>
+                    </div>
+                    <ul>
+                        <li><a href="#">Categoria 1</a></li>
+                        <li><a href="#">Categoria 2</a></li>
+                        <li><a href="#">Categoria 3</a></li>
+                        <li><a href="#">Categoria 4</a></li>
+                        <li><a href="#">Categoria 5</a></li>
+                        <li><a href="#">Categoria 6</a></li>
+                    </ul>
+                </div>
+                <div class="bloco mt20">
+                    <div class="gradgray">
+                        <h4>Fabricantes</h4>
+                    </div>
+                    <ul>
+                        <li><a href="#">Fabricantes 1</a></li>
+                        <li><a href="#">Fabricantes 2</a></li>
+                        <li><a href="#">Fabricantes 3</a></li>
+                        <li><a href="#">Fabricantes 4</a></li>
+                        <li><a href="#">Fabricantes 5</a></li>
+                        <li><a href="#">Fabricantes 6</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6"><!-- dentro do conteúdo de 6 colunas é colocado outras divs de 4 + 4 + 4 -->
+                <div  class="row">
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="item-inline"> 
+                            <img src="img/promo.jpg" alt="Alternate Text" class="img-thumbnail" />
+                            <br />
+                            <div class="desc">
+                            <p >
+                                Descrição do Produto
+                            </p>
+                            </div>
+                            <p>
+                                <span class="badge">R$ 9,90</span>
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" > Ver Detalhes </button>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center">
+                    <ul class="pagination">
+                        <li><a href="#">&laquo</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">&laquo</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="bloco">
+                    <div class="gradgray">
+                        <h4>Promoções</h4>
+                    </div>
+                    <ul>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg" class="img-thumbnail" /></a></li>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg"class="img-thumbnail" /></a></li>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg"class="img-thumbnail"/> </a></li>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg"class="img-thumbnail" /></a></li>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg"class="img-thumbnail" /></a></li>
+                        <li><a href="#"><img alt="pinguim" src="img/Promo.jpg"class="img-thumbnail" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row mt20">
+            <div class="col-md-3 cor3 h180">
+            </div>
+            <div class="col-md-3 cor2 h180">
+            </div>
+            <div class="col-md-3 cor3 h180">
+            </div>
+            <div class="col-md-3 cor2 h180">
+            </div>
+        </div>
+        <div class="col-md-12 text-center mt20">
+            <p>
+                Copyright&copy; 2013 UNES</p>
+            <p>
+                Todos os direitos reservados</p>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

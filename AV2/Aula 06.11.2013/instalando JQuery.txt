@@ -1,0 +1,4 @@
+Botão direito no projeto -----> Manage NugGet packages ----> Online----> JQuery
+
+
+http://bootsnipp.com/ --------> codigo html pronto (code Snipps)

@@ -1,0 +1,15 @@
+C:\Users\ALuno.LAB1-01\Desktop\UsandoCSS\UsandoCSS\bin\UsandoCSS.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoCSS\UsandoCSS\bin\UsandoCSS.pdb
+C:\Users\ALuno.LAB1-01\Desktop\UsandoCSS\UsandoCSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.dll
+C:\Users\ALuno.LAB1-01\Desktop\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 07.08.2013\UsandoCSS\UsandoCSS\bin\UsandoCSS.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 07.08.2013\UsandoCSS\UsandoCSS\bin\UsandoCSS.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 07.08.2013\UsandoCSS\UsandoCSS\obj\Debug\ResolveAssemblyReference.cache
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 07.08.2013\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 07.08.2013\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 14.08.2013\UsandoCSS2\UsandoCSS\bin\UsandoCSS.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 14.08.2013\UsandoCSS2\UsandoCSS\bin\UsandoCSS.pdb
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 14.08.2013\UsandoCSS2\UsandoCSS\obj\Debug\ResolveAssemblyReference.cache
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 14.08.2013\UsandoCSS2\UsandoCSS\obj\Debug\UsandoCSS.dll
+F:\#DOC\6º Período (2013)\Programação Web            (Ricardo Maróquio)\Exercícios 14.08.2013\UsandoCSS2\UsandoCSS\obj\Debug\UsandoCSS.pdb

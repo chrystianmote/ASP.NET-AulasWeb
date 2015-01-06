@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pagamento</title>
+    <script>
+        function diasEntreDatas(di, df) {
+            var mi = di.getTime();
+            var mf = df.getTime();
+            var dm = mf - mi;
+            var dia = 1000 * 60 * 60 * 24;
+            var dias = dm / dia;
+            return dias;
+        }
+        function dataBRtoDataUSA(data) {
+            var dados = data.split("/");
+            var dataUSA = dados[1] + "/" + dados[0] + "/" + dados[2];
+            return dataUSA;
+        }
+        function calcularPagamento() {
+            var valor = parseFloat(document.getElementById("txtValor").value);
+            var dv = new Date(dataBRtoDataUSA(document.getElementById("txtDataVcto").value));
+            var dp = new Date(dataBRtoDataUSA(document.getElementById("txtDataPgto").value));
+            var dias = diasEntreDatas(dv, dp);
+            var multa = 0;
+            if (dias > 0) {
+                var jm = parseFloat(document.getElementById("txtJuros").value);
+                var jd = jm / 30;
+                multa = (valor * dias * jd) / 100;
+            }
+            var total = valor + multa;
+            document.getElementById("txtMulta").value = multa.toFixed(2);
+            document.getElementById("txtTotal").value = total.toFixed(2);
+        }
+        
+    </script>
+</head>
+<body>
+    <p>
+        <label>
+            Valor:<br/>
+            <input type="text" id="txtValor" value="100"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Data Vencimento:<br/>
+            <input type="text" id="txtDataVcto" value="15/10/2012"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Data Pagamento:<br/>
+            <input type="text" id="txtDataPgto" value="15/12/2012"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Juros/mês:<br/>
+            <input type="text" id="txtJuros" value="10"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Multa:<br/>
+            <input type="text" id="txtMulta" disabled="disabled"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Total:<br/>
+            <input type="text" id="txtTotal" disabled="disabled"/>
+        </label>
+    </p>
+    <p>
+        <button onclick="calcularPagamento();">Calcular</button>
+    </p>
+</body>
+</html>

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Bolão da Mega-Sena</title>
+    <script>
+        dezenasRepetidas = 0;
+        apostasRepetidas = 0;
+
+        function dezenaRepetida(aposta, limite) {            
+            for (var i = 0; i < limite; i++) {
+                if (aposta[i] == aposta[limite]) {
+                    dezenasRepetidas++;
+                    return i;
+                }
+            }
+            return -1;
+        }
+
+        function gerarAposta(aposta) {
+            for (var j = 0; j < 6; j++) {
+                aposta[j] = Math.round(1 + Math.random() * 19);
+                if (j > 0) {
+                    var k = dezenaRepetida(aposta, j);
+                    while (k >= 0) {
+                        aposta[j] = Math.round(1 + Math.random() * 19);
+                        k = dezenaRepetida(aposta, j);
+                    }
+                }
+            }
+            aposta.sort(function (a, b) { return a - b; });
+        }
+
+        function apostaRepetida(matriz, limite) {
+            for (var i = 0; i < limite; i++) {
+                var repetida = true;
+                for (var j = 0; j < matriz[i].length; j++) {
+                    if (matriz[i][j] != matriz[limite][j]) {
+                        repetida = false;
+                        break;
+                    }
+                }
+                if (repetida) {
+                    apostasRepetidas++;
+                    return i;
+                }
+                else {
+                    return -1;
+                }
+            }
+        }
+
+        function gerarBolao() {
+            var matriz = new Array(100000);
+            for (var i = 0; i < matriz.length; i++) {
+                matriz[i] = new Array(6);
+            }
+            for (var i = 0; i < matriz.length; i++) {
+                gerarAposta(matriz[i]);
+                var k = apostaRepetida(matriz, i);
+                while (k >= 0) {
+                    gerarAposta(matriz[i]);
+                    k = apostaRepetida(matriz, i);
+                }
+            }            
+            //for (var i = 0; i < matriz.length; i++) {
+            //    for (var j = 0; j < 6; j++) {
+            //        document.write(matriz[i][j] + ", ");
+            //    }
+            //    document.write("<br/>");
+            //}
+            document.write("Dezenas repetidas: " + dezenasRepetidas + "<br/>");
+            document.write("Apostas repetidas: " + apostasRepetidas);
+        }
+    </script>
+</head>
+<body onload="gerarBolao();">
+
+</body>
+</html>

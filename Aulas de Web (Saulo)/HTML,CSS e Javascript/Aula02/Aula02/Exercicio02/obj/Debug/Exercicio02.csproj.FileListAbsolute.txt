@@ -1,0 +1,10 @@
+C:\Users\SAULO\Desktop\Aula02\Aula02\Exercicio02\bin\Exercicio02.dll
+C:\Users\SAULO\Desktop\Aula02\Aula02\Exercicio02\bin\Exercicio02.pdb
+C:\Users\SAULO\Desktop\Aula02\Aula02\Exercicio02\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Desktop\Aula02\Aula02\Exercicio02\obj\Debug\Exercicio02.dll
+C:\Users\SAULO\Desktop\Aula02\Aula02\Exercicio02\obj\Debug\Exercicio02.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Aula02\Aula02\Exercicio02\bin\Exercicio02.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Aula02\Aula02\Exercicio02\bin\Exercicio02.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Aula02\Aula02\Exercicio02\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Aula02\Aula02\Exercicio02\obj\Debug\Exercicio02.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Aula02\Aula02\Exercicio02\obj\Debug\Exercicio02.pdb

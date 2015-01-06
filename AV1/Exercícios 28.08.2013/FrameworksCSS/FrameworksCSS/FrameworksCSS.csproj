@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2F8387DC-8391-4511-ACAF-EA1B0433A8D8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrameworksCSS</RootNamespace>
+    <AssemblyName>FrameworksCSS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="960gs\.gitignore" />
+    <Content Include="960gs\app_plugins\fireworks\INSTALL.txt" />
+    <Content Include="960gs\app_plugins\photoshop\INSTALL.txt" />
+    <Content Include="960gs\code\css\960.css" />
+    <Content Include="960gs\code\css\960_12_col.css" />
+    <Content Include="960gs\code\css\960_12_col_rtl.css" />
+    <Content Include="960gs\code\css\960_16_col.css" />
+    <Content Include="960gs\code\css\960_16_col_rtl.css" />
+    <Content Include="960gs\code\css\960_24_col.css" />
+    <Content Include="960gs\code\css\960_24_col_rtl.css" />
+    <Content Include="960gs\code\css\960_rtl.css" />
+    <Content Include="960gs\code\css\demo.css" />
+    <Content Include="960gs\code\css\min\960.css" />
+    <Content Include="960gs\code\css\min\960_12_col.css" />
+    <Content Include="960gs\code\css\min\960_12_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_16_col.css" />
+    <Content Include="960gs\code\css\min\960_16_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_24_col.css" />
+    <Content Include="960gs\code\css\min\960_24_col_rtl.css" />
+    <Content Include="960gs\code\css\min\960_rtl.css" />
+    <Content Include="960gs\code\css\min\reset.css" />
+    <Content Include="960gs\code\css\min\reset_rtl.css" />
+    <Content Include="960gs\code\css\min\text.css" />
+    <Content Include="960gs\code\css\min\text_rtl.css" />
+    <Content Include="960gs\code\css\reset.css" />
+    <Content Include="960gs\code\css\reset_rtl.css" />
+    <Content Include="960gs\code\css\text.css" />
+    <Content Include="960gs\code\css\text_rtl.css" />
+    <Content Include="960gs\code\demo.html" />
+    <Content Include="960gs\code\demo_24_col.html" />
+    <Content Include="960gs\code\demo_24_col_rtl.html" />
+    <Content Include="960gs\code\demo_rtl.html" />
+    <Content Include="960gs\code\img\12_col.gif" />
+    <Content Include="960gs\code\img\16_col.gif" />
+    <Content Include="960gs\code\img\24_col.gif" />
+    <Content Include="960gs\licenses\GPL_license.txt" />
+    <Content Include="960gs\licenses\MIT_license.txt" />
+    <Content Include="960gs\logo_files\960_logo.png" />
+    <Content Include="960gs\logo_files\LOGO_USAGE.txt" />
+    <Content Include="960gs\README.txt" />
+    <Content Include="960gs\templates\fireworks\960_grid_12_col.png" />
+    <Content Include="960gs\templates\fireworks\960_grid_16_col.png" />
+    <Content Include="960gs\templates\fireworks\960_grid_24_col.png" />
+    <Content Include="960gs\templates\inkscape\960_grid_12_col.svg" />
+    <Content Include="960gs\templates\inkscape\960_grid_16_col.svg" />
+    <Content Include="960gs\templates\inkscape\960_grid_24_col.svg" />
+    <Content Include="bootstrap\.gitignore" />
+    <Content Include="bootstrap\assets\css\docs.css" />
+    <Content Include="bootstrap\assets\css\pygments-manni.css" />
+    <Content Include="bootstrap\assets\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="bootstrap\assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="bootstrap\assets\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="bootstrap\assets\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="bootstrap\assets\ico\favicon.png" />
+    <Content Include="bootstrap\assets\js\application.js" />
+    <Content Include="bootstrap\assets\js\customizer.js" />
+    <Content Include="bootstrap\assets\js\filesaver.js" />
+    <Content Include="bootstrap\assets\js\holder.js" />
+    <Content Include="bootstrap\assets\js\html5shiv.js" />
+    <Content Include="bootstrap\assets\js\jquery.js" />
+    <Content Include="bootstrap\assets\js\jszip.js" />
+    <Content Include="bootstrap\assets\js\less.js" />
+    <Content Include="bootstrap\assets\js\raw-files.js" />
+    <Content Include="bootstrap\assets\js\respond.min.js" />
+    <Content Include="bootstrap\assets\js\uglify.js" />
+    <Content Include="bootstrap\components.html" />
+    <Content Include="bootstrap\css.html" />
+    <Content Include="bootstrap\customize.html" />
+    <Content Include="bootstrap\dist\css\bootstrap-theme.css" />
+    <Content Include="bootstrap\dist\css\bootstrap-theme.min.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.css" />
+    <Content Include="bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\dist\js\bootstrap.js" />
+    <Content Include="bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="bootstrap\examples\carousel\carousel.css" />
+    <Content Include="bootstrap\examples\carousel\index.html" />
+    <Content Include="bootstrap\examples\grid\grid.css" />
+    <Content Include="bootstrap\examples\grid\index.html" />
+    <Content Include="bootstrap\examples\jumbotron-narrow\index.html" />
+    <Content Include="bootstrap\examples\jumbotron-narrow\jumbotron-narrow.css" />
+    <Content Include="bootstrap\examples\jumbotron\index.html" />
+    <Content Include="bootstrap\examples\jumbotron\jumbotron.css" />
+    <Content Include="bootstrap\examples\justified-nav\index.html" />
+    <Content Include="bootstrap\examples\justified-nav\justified-nav.css" />
+    <Content Include="bootstrap\examples\navbar-fixed-top\index.html" />
+    <Content Include="bootstrap\examples\navbar-fixed-top\navbar-fixed-top.css" />
+    <Content Include="bootstrap\examples\navbar-static-top\index.html" />
+    <Content Include="bootstrap\examples\navbar-static-top\navbar-static-top.css" />
+    <Content Include="bootstrap\examples\navbar\index.html" />
+    <Content Include="bootstrap\examples\navbar\navbar.css" />
+    <Content Include="bootstrap\examples\non-responsive\index.html" />
+    <Content Include="bootstrap\examples\non-responsive\non-responsive.css" />
+    <Content Include="bootstrap\examples\offcanvas\index.html" />
+    <Content Include="bootstrap\examples\offcanvas\offcanvas.css" />
+    <Content Include="bootstrap\examples\offcanvas\offcanvas.js" />
+    <Content Include="bootstrap\examples\screenshots\carousel.jpg" />
+    <Content Include="bootstrap\examples\screenshots\grid.jpg" />
+    <Content Include="bootstrap\examples\screenshots\jumbotron-narrow.jpg" />
+    <Content Include="bootstrap\examples\screenshots\jumbotron.jpg" />
+    <Content Include="bootstrap\examples\screenshots\justified-nav.jpg" />
+    <Content Include="bootstrap\examples\screenshots\navbar-fixed.jpg" />
+    <Content Include="bootstrap\examples\screenshots\navbar-static.jpg" />
+    <Content Include="bootstrap\examples\screenshots\navbar.jpg" />
+    <Content Include="bootstrap\examples\screenshots\non-responsive.jpg" />
+    <Content Include="bootstrap\examples\screenshots\offcanvas.jpg" />
+    <Content Include="bootstrap\examples\screenshots\sign-in.jpg" />
+    <Content Include="bootstrap\examples\screenshots\starter-template.jpg" />
+    <Content Include="bootstrap\examples\screenshots\sticky-footer-navbar.jpg" />
+    <Content Include="bootstrap\examples\screenshots\sticky-footer.jpg" />
+    <Content Include="bootstrap\examples\screenshots\theme.jpg" />
+    <Content Include="bootstrap\examples\signin\index.html" />
+    <Content Include="bootstrap\examples\signin\signin.css" />
+    <Content Include="bootstrap\examples\starter-template\index.html" />
+    <Content Include="bootstrap\examples\starter-template\starter-template.css" />
+    <Content Include="bootstrap\examples\sticky-footer-navbar\index.html" />
+    <Content Include="bootstrap\examples\sticky-footer-navbar\sticky-footer-navbar.css" />
+    <Content Include="bootstrap\examples\sticky-footer\index.html" />
+    <Content Include="bootstrap\examples\sticky-footer\sticky-footer.css" />
+    <Content Include="bootstrap\examples\theme\index.html" />
+    <Content Include="bootstrap\examples\theme\theme.css" />
+    <Content Include="bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="bootstrap\getting-started.html" />
+    <Content Include="bootstrap\Gruntfile.js" />
+    <Content Include="bootstrap\index.html" />
+    <Content Include="bootstrap\javascript.html" />
+    <Content Include="bootstrap\js\affix.js" />
+    <Content Include="bootstrap\js\alert.js" />
+    <Content Include="bootstrap\js\button.js" />
+    <Content Include="bootstrap\js\carousel.js" />
+    <Content Include="bootstrap\js\collapse.js" />
+    <Content Include="bootstrap\js\dropdown.js" />
+    <Content Include="bootstrap\js\modal.js" />
+    <Content Include="bootstrap\js\popover.js" />
+    <Content Include="bootstrap\js\scrollspy.js" />
+    <Content Include="bootstrap\js\tab.js" />
+    <Content Include="bootstrap\js\tests\index.html" />
+    <Content Include="bootstrap\js\tests\phantom.js" />
+    <Content Include="bootstrap\js\tests\server.js" />
+    <Content Include="bootstrap\js\tests\unit\affix.js" />
+    <Content Include="bootstrap\js\tests\unit\alert.js" />
+    <Content Include="bootstrap\js\tests\unit\button.js" />
+    <Content Include="bootstrap\js\tests\unit\carousel.js" />
+    <Content Include="bootstrap\js\tests\unit\collapse.js" />
+    <Content Include="bootstrap\js\tests\unit\dropdown.js" />
+    <Content Include="bootstrap\js\tests\unit\modal.js" />
+    <Content Include="bootstrap\js\tests\unit\phantom.js" />
+    <Content Include="bootstrap\js\tests\unit\popover.js" />
+    <Content Include="bootstrap\js\tests\unit\scrollspy.js" />
+    <Content Include="bootstrap\js\tests\unit\tab.js" />
+    <Content Include="bootstrap\js\tests\unit\tooltip.js" />
+    <Content Include="bootstrap\js\tests\unit\transition.js" />
+    <Content Include="bootstrap\js\tests\vendor\jquery.js" />
+    <Content Include="bootstrap\js\tests\vendor\qunit.css" />
+    <Content Include="bootstrap\js\tests\vendor\qunit.js" />
+    <Content Include="bootstrap\js\tooltip.js" />
+    <Content Include="bootstrap\js\transition.js" />
+    <Content Include="bootstrap\_includes\ads.html" />
+    <Content Include="bootstrap\_includes\footer.html" />
+    <Content Include="bootstrap\_includes\header.html" />
+    <Content Include="bootstrap\_includes\nav-components.html" />
+    <Content Include="bootstrap\_includes\nav-css.html" />
+    <Content Include="bootstrap\_includes\nav-customize.html" />
+    <Content Include="bootstrap\_includes\nav-getting-started.html" />
+    <Content Include="bootstrap\_includes\nav-javascript.html" />
+    <Content Include="bootstrap\_includes\nav-main.html" />
+    <Content Include="bootstrap\_includes\old-bs-docs.html" />
+    <Content Include="bootstrap\_includes\social-buttons.html" />
+    <Content Include="bootstrap\_layouts\default.html" />
+    <Content Include="bootstrap\_layouts\home.html" />
+    <Content Include="img\Promo.jpg" />
+    <Content Include="index.htm" />
+    <Content Include="usando960.htm" />
+    <Content Include="usandobootstrap.htm" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="960gs\app_plugins\fireworks\960.gs Grid Commands.mxp" />
+    <None Include="960gs\app_plugins\fireworks\_source\12 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\16 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\24 columns.jsf" />
+    <None Include="960gs\app_plugins\fireworks\_source\960.gs Grid Commands.mxi" />
+    <None Include="960gs\app_plugins\photoshop\960_GRIDS.atn" />
+    <None Include="960gs\logo_files\960_logo.ai" />
+    <None Include="960gs\logo_files\960_logo.eps" />
+    <None Include="960gs\logo_files\960_logo.psd" />
+    <None Include="960gs\sketch_sheets\960_sketch_12_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_16_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_24_col.pdf" />
+    <None Include="960gs\sketch_sheets\960_sketch_all.pdf" />
+    <None Include="960gs\templates\acorn\960_grid_12_col.acorn" />
+    <None Include="960gs\templates\acorn\960_grid_16_col.acorn" />
+    <None Include="960gs\templates\acorn\960_grid_24_col.acorn" />
+    <None Include="960gs\templates\balsamiq\960_mockups.bmml" />
+    <None Include="960gs\templates\corel_draw\960_grid_12_col.cdt" />
+    <None Include="960gs\templates\corel_draw\960_grid_16_col.cdt" />
+    <None Include="960gs\templates\corel_draw\960_grid_24_col.cdt" />
+    <None Include="960gs\templates\expression_design\960_grid_12_col.design" />
+    <None Include="960gs\templates\expression_design\960_grid_16_col.design" />
+    <None Include="960gs\templates\expression_design\960_grid_24_col.design" />
+    <None Include="960gs\templates\flash\960_grid_12_col.fla" />
+    <None Include="960gs\templates\flash\960_grid_16_col.fla" />
+    <None Include="960gs\templates\flash\960_grid_24_col.fla" />
+    <None Include="960gs\templates\gimp\960_grid_12_col.xcf" />
+    <None Include="960gs\templates\gimp\960_grid_16_col.xcf" />
+    <None Include="960gs\templates\gimp\960_grid_24_col.xcf" />
+    <None Include="960gs\templates\illustrator\960_grid_12_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_12_col_cs5.ait" />
+    <None Include="960gs\templates\illustrator\960_grid_16_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_16_col_cs5.ait" />
+    <None Include="960gs\templates\illustrator\960_grid_24_col.ai" />
+    <None Include="960gs\templates\illustrator\960_grid_24_col_cs5.ait" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_12_col.inx" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_16_col.inx" />
+    <None Include="960gs\templates\indesign\cs3\960_grid_24_col.inx" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_12_col.idml" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_16_col.idml" />
+    <None Include="960gs\templates\indesign\cs4\960_grid_24_col.idml" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_12_col.indt" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_16_col.indt" />
+    <None Include="960gs\templates\indesign\cs5\960_grid_24_col.indt" />
+    <None Include="960gs\templates\omnigraffle\960_graffle.graffle" />
+    <None Include="960gs\templates\photoshop\960_grid_12_col.psd" />
+    <None Include="960gs\templates\photoshop\960_grid_16_col.psd" />
+    <None Include="960gs\templates\photoshop\960_grid_24_col.psd" />
+    <None Include="960gs\templates\pixelmator\960_grid_12_col.pxm" />
+    <None Include="960gs\templates\pixelmator\960_grid_16_col.pxm" />
+    <None Include="960gs\templates\pixelmator\960_grid_24_col.pxm" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_12_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_16_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_5\960_grid_24_col.qwd" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_6\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_7\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_8\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_12_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_16_col.qxp" />
+    <None Include="960gs\templates\quarkxpress\qxp_version_9\960_grid_24_col.qxp" />
+    <None Include="960gs\templates\visio\960_visio.vsd" />
+    <None Include="960gs\templates\xara\960-12-col-grid.xar" />
+    <None Include="960gs\templates\xara\960-16-col-grid.xar" />
+    <None Include="960gs\templates\xara\960-24-col-grid.xar" />
+    <None Include="bootstrap\.editorconfig" />
+    <None Include="bootstrap\.travis.yml" />
+    <None Include="bootstrap\bower.json" />
+    <None Include="bootstrap\browserstack.json" />
+    <None Include="bootstrap\CNAME" />
+    <None Include="bootstrap\composer.json" />
+    <None Include="bootstrap\CONTRIBUTING.md" />
+    <None Include="bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="bootstrap\js\.jshintrc" />
+    <None Include="bootstrap\less\alerts.less" />
+    <None Include="bootstrap\less\badges.less" />
+    <None Include="bootstrap\less\bootstrap.less" />
+    <None Include="bootstrap\less\breadcrumbs.less" />
+    <None Include="bootstrap\less\button-groups.less" />
+    <None Include="bootstrap\less\buttons.less" />
+    <None Include="bootstrap\less\carousel.less" />
+    <None Include="bootstrap\less\close.less" />
+    <None Include="bootstrap\less\code.less" />
+    <None Include="bootstrap\less\component-animations.less" />
+    <None Include="bootstrap\less\dropdowns.less" />
+    <None Include="bootstrap\less\forms.less" />
+    <None Include="bootstrap\less\glyphicons.less" />
+    <None Include="bootstrap\less\grid.less" />
+    <None Include="bootstrap\less\input-groups.less" />
+    <None Include="bootstrap\less\jumbotron.less" />
+    <None Include="bootstrap\less\labels.less" />
+    <None Include="bootstrap\less\list-group.less" />
+    <None Include="bootstrap\less\media.less" />
+    <None Include="bootstrap\less\mixins.less" />
+    <None Include="bootstrap\less\modals.less" />
+    <None Include="bootstrap\less\navbar.less" />
+    <None Include="bootstrap\less\navs.less" />
+    <None Include="bootstrap\less\normalize.less" />
+    <None Include="bootstrap\less\pager.less" />
+    <None Include="bootstrap\less\pagination.less" />
+    <None Include="bootstrap\less\panels.less" />
+    <None Include="bootstrap\less\popovers.less" />
+    <None Include="bootstrap\less\print.less" />
+    <None Include="bootstrap\less\progress-bars.less" />
+    <None Include="bootstrap\less\responsive-utilities.less" />
+    <None Include="bootstrap\less\scaffolding.less" />
+    <None Include="bootstrap\less\tables.less" />
+    <None Include="bootstrap\less\theme.less" />
+    <None Include="bootstrap\less\thumbnails.less" />
+    <None Include="bootstrap\less\tooltip.less" />
+    <None Include="bootstrap\less\type.less" />
+    <None Include="bootstrap\less\utilities.less" />
+    <None Include="bootstrap\less\variables.less" />
+    <None Include="bootstrap\less\wells.less" />
+    <None Include="bootstrap\LICENSE" />
+    <None Include="bootstrap\package.json" />
+    <None Include="bootstrap\README.md" />
+    <None Include="bootstrap\_config.yml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49244</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

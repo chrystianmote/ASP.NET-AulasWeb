@@ -1,0 +1,5 @@
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\UsandoWebServices\bin\UsandoWebServices.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\UsandoWebServices\bin\UsandoWebServices.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\UsandoWebServices\obj\Debug\UsandoWebServices.csprojResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\UsandoWebServices\obj\Debug\UsandoWebServices.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\UsandoWebServices\UsandoWebServices\obj\Debug\UsandoWebServices.pdb

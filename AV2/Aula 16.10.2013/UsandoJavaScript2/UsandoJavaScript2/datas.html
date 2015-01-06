@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Manipulando Datas e Horas</title>
+    <script type="text/javascript">
+        function exibirDataHoraAtual() {
+            var dh = new Date();
+            var saida = document.getElementById("saida");
+            saida.innerText = dh.toLocaleString();
+        }
+        function exibirDataNascimento() {
+            var dh = new Date(1979, 6, 31);
+            //var dh = new Date("7/31/1979");
+            var saida = document.getElementById("saida");
+            saida.innerText = dh.toLocaleString();
+        }
+        function anoBissexto(ano) {
+            if ((ano % 4 == 0) && (ano % 100 != 0) || (ano % 400 == 0)) {
+                return true;
+            }
+            else {
+                return false;
+            }
+        }
+        function verificarAnoBissexto() {
+            var ano = document.getElementById("ano").value;
+            if (anoBissexto(ano)) {
+                alert("Sim");
+            }
+            else {
+                alert("Não");
+            }
+        }
+        function diasEntreDatas(di, df) {
+            var mi = di.getTime();
+            var mf = df.getTime();
+            var dm = mf - mi;
+            var dia = 1000 * 60 * 60 * 24;
+            var dias = dm / dia;
+            return dias;
+        }
+        function diasEntreDatasTeste() {
+            var di = new Date(1979, 6, 31);
+            var df = new Date();
+            var dif = diasEntreDatas(di, df);
+            alert(dif);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="exibirDataHoraAtual();">Data/Hora Atuais</button>
+    <hr />
+    <button onclick="exibirDataNascimento();">Data de Nascimento</button>
+    <hr />
+    <button onclick="diasEntreDatasTeste();">Dias entre Datas</button>
+    <hr />
+    <p id="saida">
+    </p>
+    <hr />
+    <input type="number" name="" value="" min="0" max="2500" id="ano"/>
+    <button onclick="verificarAnoBissexto();">É bissexto?</button>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\bin\Debug\ClienteWindowsWS.exe.config
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\bin\Debug\ClienteWindowsWS.exe
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\bin\Debug\ClienteWindowsWS.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.csprojResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.Form1.resources
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.Properties.Resources.resources
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.csproj.GenerateResource.Cache
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.exe
+C:\Users\ALuno.LAB1-01\Desktop\Aula 13.11.2013\ClienteWindowsWS\ClienteWindowsWS\obj\Debug\ClienteWindowsWS.pdb

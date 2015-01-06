@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        {
+            document.write("<h1>Usando for</h1>");
+            for (var i = 1; i <= 1000; i += 2) {
+                document.write(i.toString() + " - ");
+            }
+
+            document.write("<h1>Usando while</h1>");
+            var x = 0;
+            while (x <= 1000) {
+                document.write(x.toString() + " - ");
+                x++
+            }
+
+            document.write("<h1>Usando do..while</h1>");
+            var y = 0;
+            do {
+                document.write(y.toString() + " - ");
+                y++
+            } while (y <= 1000)
+        }
+    </script>
+
+</body>
+</html>

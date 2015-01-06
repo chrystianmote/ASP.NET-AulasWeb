@@ -1,0 +1,5 @@
+D:\Aula.09-10-13\UsandoJavaScript\UsandoJavaScript\bin\UsandoJavaScript.dll
+D:\Aula.09-10-13\UsandoJavaScript\UsandoJavaScript\bin\UsandoJavaScript.pdb
+D:\Aula.09-10-13\UsandoJavaScript\UsandoJavaScript\obj\Debug\UsandoJavaScript.csprojResolveAssemblyReference.cache
+D:\Aula.09-10-13\UsandoJavaScript\UsandoJavaScript\obj\Debug\UsandoJavaScript.dll
+D:\Aula.09-10-13\UsandoJavaScript\UsandoJavaScript\obj\Debug\UsandoJavaScript.pdb

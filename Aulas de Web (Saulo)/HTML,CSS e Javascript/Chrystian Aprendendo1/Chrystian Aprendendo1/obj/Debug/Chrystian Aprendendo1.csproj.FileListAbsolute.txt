@@ -1,0 +1,10 @@
+C:\Users\SAULO\Desktop\Chrystian Aprendendo1\Chrystian Aprendendo1\bin\Chrystian Aprendendo1.dll
+C:\Users\SAULO\Desktop\Chrystian Aprendendo1\Chrystian Aprendendo1\bin\Chrystian Aprendendo1.pdb
+C:\Users\SAULO\Desktop\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Desktop\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\Chrystian Aprendendo1.dll
+C:\Users\SAULO\Desktop\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\Chrystian Aprendendo1.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Chrystian Aprendendo1\Chrystian Aprendendo1\bin\Chrystian Aprendendo1.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Chrystian Aprendendo1\Chrystian Aprendendo1\bin\Chrystian Aprendendo1.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\Chrystian Aprendendo1.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Chrystian Aprendendo1\Chrystian Aprendendo1\obj\Debug\Chrystian Aprendendo1.pdb

@@ -1,0 +1,159 @@
+﻿body
+{
+    background-color: #0059DF;
+    font-family: Arial;
+    width: 1000px;
+    color: White;
+}
+div.ptexto1
+{
+    position: relative;
+    font-size: 20px;
+    float: left;
+    top: 439px;
+    left: 227px;
+}
+.ptexto2
+{
+    position: absolute;
+    font-size: 20px;
+    float: left;
+    top: 47px;
+}
+div.Fotorg
+{
+    position: relative;
+    float: left;
+    top: -100px;
+    padding-top: 215px;
+    padding-left: 200px;
+}
+div.Bordasup
+{
+    position: fixed;
+    height: auto;
+    float: left;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #333333;
+    z-index: 100;
+}
+div.Bortext
+{
+    font-size: small;
+    position: absolute;
+    float: right;
+    right: 135px;
+    top: 2px;
+    z-index: 101;
+}
+div.Logo
+{
+    position: relative;
+    height: auto;
+    width: auto;
+    float: left;
+    left: 205px;
+    top: 1px;
+    z-index: 1;
+}
+.Campo
+{
+    font-size: small;
+    color: white;
+    width: 350px;
+    position: absolute;
+    float: right;
+    left: 820px;
+    top: 110px;
+}
+div.Planfundcamp
+{
+    position: absolute;
+    float: left;
+    left: -20px;
+    top: -5px;
+    width: auto;
+    height: auto;
+    background-color: #C0C0C0;
+    background-repeat: repeat;
+}
+.divBG
+{
+    position: absolute;
+    left: 820px;
+    top: 110px;
+    background-color: Silver;
+    width: 220px;
+    height: 350px;
+}
+.aIdioma
+{
+    color: #CECECE;
+    text-decoration: none;
+}
+.aIdioma:hover
+{
+    color: White;
+}
+
+a.Esqsenha
+{
+    color: white;
+    text-decoration: none;
+}
+a.Esqsenha:hover
+{
+    text-decoration: underline;
+}
+ul.Menu
+{
+    top: -40px;
+    display: inline;
+    float: left;
+    left: 200px;
+    height: auto;
+    position: relative;
+}
+ul.Menu li
+{
+    display: inline;
+    font-size: 11px;
+}
+ul.Menu li a
+{
+    text-decoration: none;
+    color: #5B9DFF;
+}
+ul.Menu li a:hover
+{
+    color: White;
+}
+.pFim
+{
+    color: #3586FF;
+    /*font-size: 11px;
+    padding-top: 145px;
+    float: left;
+    left: 200px;
+    position: relative;*/
+}
+input:focus
+{
+    border: 1px solid blue;
+    background-color: Black;
+    color: Red;
+}
+input.Campos:hover
+{
+    border: 1px solid yellow;
+}
+.botao
+{
+    width: 50px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #000099;
+    color: White;
+}

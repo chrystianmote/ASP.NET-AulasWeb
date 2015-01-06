@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Manipulando Strings</title>
+    <script>
+        function mostrarStrings() {
+            var texto = "Este é um texto qualquer";
+            document.write(texto.charAt(2) + "<br/>"); //mostra um caractere na posição informada
+            document.write(texto.charCodeAt(2) + "<br/>"); //mostra o código unicode de um caractere
+            document.write(texto.concat(" acréscimo") + "<br/>"); //contatena com o texto do parâmetro
+            document.write(texto.indexOf("q") + "<br/>"); //posição do texto do parâmetro (primeiro)
+            document.write(texto.lastIndexOf("q") + "<br/>"); //posição do texto do parâmetro (último)
+            document.write(texto.replace("qualquer", "especial") + "<br/>"); //substitui parte do texto
+            document.write(texto.slice(0, 3) + "<br/>"); //retorna uma parte do texto (inicio e fim)
+            document.write(texto.split(" ")[3] + "<br/>"); //retorna um vetor com partes do texto dividido no texto passado
+            document.write(texto.substr(4, 5) + "<br/>"); //retorna parte do texto (inicio e quantidade)
+            document.write(texto.substring(0, 3) + "<br/>"); //idem slice
+            document.write(texto.toLowerCase() + "<br/>"); //converte para minúsculas
+            document.write(texto.toUpperCase() + "<br/>"); //converte para maiúsculas
+            document.write(texto.trim() + "<br/>"); //remove espaços das extremidades
+        }
+    </script>
+</head>
+<body onload="mostrarStrings();">
+
+</body>
+</html>

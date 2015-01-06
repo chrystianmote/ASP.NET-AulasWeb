@@ -1,0 +1,5 @@
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\bin\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\bin\Projetwitter.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\Projetwitter.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\Aulas HTML\Projetwitter\Projetwitter\obj\Debug\Projetwitter.pdb

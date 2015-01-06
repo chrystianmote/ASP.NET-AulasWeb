@@ -1,0 +1,5 @@
+C:\Users\SAULO\Desktop\Aula02\Aula02\Aula02\bin\Aula02.dll
+C:\Users\SAULO\Desktop\Aula02\Aula02\Aula02\bin\Aula02.pdb
+C:\Users\SAULO\Desktop\Aula02\Aula02\Aula02\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Desktop\Aula02\Aula02\Aula02\obj\Debug\Aula02.dll
+C:\Users\SAULO\Desktop\Aula02\Aula02\Aula02\obj\Debug\Aula02.pdb

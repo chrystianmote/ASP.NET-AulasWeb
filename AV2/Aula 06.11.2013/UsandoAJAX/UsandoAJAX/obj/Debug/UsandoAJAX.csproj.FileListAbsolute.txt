@@ -1,0 +1,7 @@
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\bin\UsandoAJAX.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\bin\UsandoAJAX.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\obj\Debug\UsandoAJAX.csprojResolveAssemblyReference.cache
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\obj\Debug\UsandoAJAX.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\obj\Debug\UsandoAJAX.pdb
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\bin\EntityFramework.dll
+C:\Users\ALuno.LAB1-01\Desktop\Aula 06.11.2013\UsandoAJAX\UsandoAJAX\bin\EntityFramework.xml

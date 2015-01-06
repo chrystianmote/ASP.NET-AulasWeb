@@ -1,0 +1,5 @@
+C:\Documents and Settings\Chrystian Mayk\Desktop\UsandoJavaScript2\UsandoJavaScript2\bin\UsandoJavaScript2.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\UsandoJavaScript2\UsandoJavaScript2\bin\UsandoJavaScript2.pdb
+C:\Documents and Settings\Chrystian Mayk\Desktop\UsandoJavaScript2\UsandoJavaScript2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Chrystian Mayk\Desktop\UsandoJavaScript2\UsandoJavaScript2\obj\Debug\UsandoJavaScript2.dll
+C:\Documents and Settings\Chrystian Mayk\Desktop\UsandoJavaScript2\UsandoJavaScript2\obj\Debug\UsandoJavaScript2.pdb

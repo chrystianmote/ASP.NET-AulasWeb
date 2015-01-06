@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <script type="text/javascript">
+        function CapturarBotao(event) {
+            var evt = window.event || event;
+            var x = evt.clientX;
+            var y = evt.clientY;
+            if (evt.button == 2) {
+                alert("Você clicou com o botão direito na posição " + x + ", " + y);
+            }
+            else {
+                alert("Você clicou com o botão esquerdo na posição " + x + ", " + y);
+            }
+        }
+        function CapturarTecla(event) {
+            var evt = window.event || event;
+            alert("O código da tecla pressionada é " + evt.keyCode);
+        }
+        function CapturarObjeto(event) {
+            var evt = window.event || event;
+            var obj;
+            if (evt.target) {
+                obj = evt.target;
+            }
+            else if (evt.srcElement) {
+                obj = evt.srcElement;
+            }
+            if (obj.nodeType == 3) { // defeat Safari bug
+                obj = obj.parentNode;
+            }
+            alert("O elemento " + obj.id + " é do tipo " + obj.tagName);
+        }
+
+    </script>
+
+</head>
+<body>
+    <div id="areaCobaia" style="width:500px;height:500px;border: 1px solid Black"
+    onkeydown="CapturarTecla(event)" 
+    onmouseup="CapturarBotao(event)">
+  </div>
+</body>
+</html>

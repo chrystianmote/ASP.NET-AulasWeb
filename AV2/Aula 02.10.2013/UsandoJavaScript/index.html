@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function mostrarMensagem() {
+            var nome = window.prompt("Qual seu nome?", "Fulano");
+            if ((nome != "") && (nome != nuul)) {
+                window.alert("Bem-vindo ao site: " + nome);
+            }
+        }
+        function computarCalculo() {
+            var n1 = window.prompt("1º valor:", "");
+            var n2 = window.prompt("2º valor:", "");
+            var res = parseInt(n1) + parseInt(n2);
+            window.alert("Resultado: " + res);
+        }
+
+        function confirmarOperacao() {
+            if (window.confirm("Deseja confirmar?")) {
+                window.alert("Operação confirmada!");
+            }
+            else{
+                window.alert("Operação cancelada!");
+            }
+        }
+
+        function obterIMC(p, a) {
+            var imc = parseFloat(p) / Math.pow(parseFloat(a), 2);
+            return imc;
+        }
+
+        function calcularIMC() {
+            var peso = window.prompt("Digite o peso: ", "");
+            var altura = window.prompt("Altura: ", "");
+            window.alert(obterIMC(peso, altura));
+        }
+        //Faça um programa que sorteie 6 números de uma aposta da mega sena sem valores repetidos
+
+        function megaSena() {
+            var n1 = Math.floor(1 + Math.round((Math.random() * 60)));
+            var n2 = Math.floor(1 + Math.round((Math.random() * 60)));
+            var n3 = Math.floor(1 + Math.round((Math.random() * 60)));
+            var n4 = Math.floor(1 + Math.round((Math.random() * 60)));
+            var n5 = Math.floor(1 + Math.round((Math.random() * 60)));
+            var n6 = Math.floor(1 + Math.round((Math.random() * 60)));
+            while (n1 == n2) {
+                var n2 = 1 + Math.round((Math.random() * 60));
+            }
+            while (n1 == n3 || n2 == n3) {
+                var n3 = 1 + Math.round((Math.random() * 60));
+            }
+            while (n1 == n4 || n2 == n4 || n3 == n4) {
+                var n4 = 1 + Math.round((Math.random() * 60));
+            }
+            while (n1 == n5 || n2 == n5 || n3 == n5 || n4 == n5) {
+                var n5 = 1 + Math.round((Math.random() * 60));
+            }
+            while (n1 == n6 || n2 == n6 || n3 == n6 || n4 == n6 || n5 == n6) {
+                var n6 = 1 + Math.round((Math.random() * 60));
+            }
+            window.alert(n1 + " " + n2 + " " + n3 + " " + n4 + " " + n5 + " " + n6);
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="mostrarMensagem();">Executar</button>
+    <hr />
+    <button type="button" onclick="computarCalculo();">Calcular</button>
+    <hr />
+    <button type="button" onclick="calcularIMC();">Calcular IMC</button>
+    <hr />
+    <button type="button" onclick="megaSena();">Mega Sena</button>
+</body>
+</html>

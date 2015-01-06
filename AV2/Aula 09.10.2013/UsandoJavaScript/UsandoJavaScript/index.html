@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function mostrarPares() {
+            for (var i = 0; i < 100; i++) {
+                if (i % 2 == 0) {
+                    document.write(i + "<br/>");
+                }
+            }
+        }
+        function mostrarImpares() {
+            var i = 0;
+            while (i < 100) {
+                if (i % 2 == 1) {
+                    document.write(i + "<br/>");
+                }
+                i++;
+            }
+        }
+
+        function mostrarMultiplos3() {
+            var i = 0;
+            do {
+                if ((i > 20) && (i < 30)) {
+                    i++;
+                    continue; //vai para a próxima iteração
+                }
+
+                if (i % 3 == 0) {
+                    document.write(i + "<br/>");
+                }
+                i++;
+
+                if (i == 50) {
+                    break; //abandona a estrutura de repetição
+                }
+            } while (i < 100);
+            document.write("Fim da execução!");
+        }
+
+        function diasDaSemana() {
+            var dias = new Array(7);
+            dias[0] = "Domingo";
+            dias[1] = "Segunda-feira";
+            dias[2] = "Terça-feira";
+            dias[3] = "Quarta-feira";
+            dias[4] = "Quinta-feira";
+            dias[5] = "Sexta-feira";
+            dias[6] = "Sábado";
+
+            for (var i = 0; i < dias.length; i++) {
+                document.write(dias[i] + "<br/>");
+            }
+
+            //for (var i in dias) {
+            //    document.write(dias[i] + "<br/>");
+            //}            
+
+        }
+
+        //Uma mesma aposta não pode ter números iguais
+        //Um mesmo bolão não pode ter apostas repetidas
+        //Universidade XTI no YouTube
+
+        function montarMatriz() {
+            var matriz = new Array(10, 6);
+            var repetir = false;
+            do {
+                for (var i = 0; i < 10; i++) {
+                    for (var j = 0; j < 6; j++) {
+                        matriz[i, j] = Math.round(1 + Math.random() * 59);
+                    }
+                    for (var k = 0; k < 6; k++) {
+                        if (matriz[i, j] == matriz[i, k]) {
+                            repetir = true;
+                        }
+                        else {
+                            continue;
+                        }
+                    }
+                    if (repetir) {
+                        break;
+                    }
+                }
+
+            } while (repetir);
+
+            for (var i = 0; i < 10; i++) {
+                for (var j = 0; j < 6; j++) {
+                    document.write(matriz[i, j] + "-")
+                }
+                document.write("</br>");
+            }
+           
+        }
+    </script>
+</head>
+<body onload="montarMatriz();">
+</body>
+</html>

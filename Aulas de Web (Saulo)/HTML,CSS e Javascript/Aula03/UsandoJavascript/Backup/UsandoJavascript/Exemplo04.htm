@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        {
+            var x = window.prompt("Digite o primeiro número:", "9");
+            var y = window.prompt("Digite o segundo número:", "6");
+            //-----------------------------------------------------------------
+            if (x == y) {
+                document.write("Prmeiro número igual ao segundo!<br/>");
+            }
+            else {
+            //if (x != y) {
+                document.write("Prmeiro número diferente ao segundo!<br/>");
+            }
+            //-----------------------------------------------------------------
+            if (x > y) {
+                document.write("Prmeiro número é maior ao segundo!<br/>");
+            }
+            //-----------------------------------------------------------------
+            else {
+            //if (x <= y) {
+                document.write("Prmeiro número é menor ou igual ao segundo!<br/>");
+            }
+            //-----------------------------------------------------------------
+            if (x < y) {
+                document.write("Prmeiro número é menor ao segundo!<br/>");
+            }
+            //-----------------------------------------------------------------
+            else {
+            //if (x >= y) {
+                document.write("Prmeiro número é maior ou igual ao segundo!<br/>");
+            }
+
+            var z = 6;
+            if (y === z) {
+                document.write("Segundo é estritamente igual a z!<br/>");
+            }
+            var s = (x > y) ? "Primeiro maior que o segundo!" :
+                "Primeiro menor ou igual ao segundo!";
+            document.write(s + "<br/>");
+        }
+    </script>
+</body>
+</html>
