@@ -1,0 +1,25 @@
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula32\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula32\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula32\RedeSocialEF4\RedeSocialEF4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula32\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula32\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula33\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula33\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula33\RedeSocialEF4\RedeSocialEF4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula33\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula33\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula34\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula34\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula34\RedeSocialEF4\RedeSocialEF4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula34\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula34\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.pdb
+\\SMSERVER\Users\Public\Aula35\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.dll
+\\SMSERVER\Users\Public\Aula35\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.pdb
+\\SMSERVER\Users\Public\Aula35\RedeSocialEF4\RedeSocialEF4\obj\Debug\ResolveAssemblyReference.cache
+\\SMSERVER\Users\Public\Aula35\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.dll
+\\SMSERVER\Users\Public\Aula35\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.pdb
+D:\Saulo\Aulas ASP.NET\Aula35 - Saulo\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.dll
+D:\Saulo\Aulas ASP.NET\Aula35 - Saulo\RedeSocialEF4\RedeSocialEF4\bin\RedeSocialEF4.pdb
+D:\Saulo\Aulas ASP.NET\Aula35 - Saulo\RedeSocialEF4\RedeSocialEF4\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula35 - Saulo\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.dll
+D:\Saulo\Aulas ASP.NET\Aula35 - Saulo\RedeSocialEF4\RedeSocialEF4\obj\Debug\RedeSocialEF4.pdb

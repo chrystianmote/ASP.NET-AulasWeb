@@ -1,0 +1,204 @@
+/* begin Box, Sheet */
+.sm-sheet-tl
+{
+  clip: rect(auto 38px 38px auto);
+}
+
+.sm-sheet-tr
+{
+  clip: rect(auto auto 38px 38px);
+}
+
+.sm-sheet-bl
+{
+  clip: rect(38px 38px auto auto);
+}
+
+.sm-sheet-br
+{
+  clip: rect(38px auto auto 38px);
+}
+
+.sm-sheet-tc
+{
+  clip: rect(auto auto 38px auto);
+}
+
+.sm-sheet-bc
+{
+  clip: rect(38px auto auto auto);
+}
+
+.sm-sheet-cr
+{
+  clip: rect(auto auto auto 38px);
+}
+
+.sm-sheet-cl
+{
+  clip: rect(auto 38px auto auto);
+}
+
+.sm-sheet-body
+{
+  zoom: 1;
+}
+/* end Box, Sheet */
+
+/* begin Layout */
+div.sm-content-layout
+{
+  display: block;
+  zoom: 1;
+  overflow: hidden;
+}
+/* end Layout */
+
+/* begin Box, Block, VMenuBlock */
+
+.sm-vmenublock-body
+{
+  zoom: 1;
+}
+/* end Box, Block, VMenuBlock */
+
+/* begin BlockHeader, VMenuBlockHeader */
+.sm-vmenublockheader .r
+{
+  clip: rect(auto auto auto 856px);
+}
+/* end BlockHeader, VMenuBlockHeader */
+
+/* begin Box, Box, VMenuBlockContent */
+
+.sm-vmenublockcontent-body
+{
+  zoom: 1;
+}
+
+.sm-vmenublockcontent-body
+{
+  zoom: 1;
+}
+/* end Box, Box, VMenuBlockContent */
+
+/* begin VMenuItem */
+ul.sm-vmenu .sm-vmenu-separator, ul.sm-vmenu .sm-vmenu-separator-span, ul.sm-vmenu li.sm-vsubmenu-separator, ul.sm-vmenu .sm-vsubmenu-separator-span
+{
+  zoom: 1;
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+.sm-vmenu ul, .sm-vmenu li
+{
+  zoom: 1;
+}
+
+ul.sm-vmenu a .r
+{
+  clip: rect(auto auto auto 878px);
+}
+/* end VMenuItem */
+
+/* begin Box, Block */
+
+.sm-block-body
+{
+  zoom: 1;
+}
+/* end Box, Block */
+
+/* begin Box, BlockContent */
+
+.sm-blockcontent-body
+{
+  zoom: 1;
+}
+/* end Box, BlockContent */
+
+/* begin Button */
+.sm-button-wrapper .r
+{
+  clip: rect(auto auto auto 413px);
+}
+/* end Button */
+
+/* begin Box, Post */
+.sm-post-tl
+{
+  clip: rect(auto 6px 6px auto);
+}
+
+.sm-post-tr
+{
+  clip: rect(auto auto 6px 6px);
+}
+
+.sm-post-bl
+{
+  clip: rect(6px 6px auto auto);
+}
+
+.sm-post-br
+{
+  clip: rect(6px auto auto 6px);
+}
+
+.sm-post-tc
+{
+  clip: rect(auto auto 6px auto);
+}
+
+.sm-post-bc
+{
+  clip: rect(6px auto auto auto);
+}
+
+.sm-post-cr
+{
+  clip: rect(auto auto auto 6px);
+}
+
+.sm-post-cl
+{
+  clip: rect(auto 6px auto auto);
+}
+
+.sm-post-body
+{
+  zoom: 1;
+}
+/* end Box, Post */
+
+/* begin PostContent */
+.sm-postcontent
+{
+  height: 1%;
+}
+/* end PostContent */
+
+/* begin LayoutCell, content */
+div.sm-content
+{
+  width: auto;
+}
+
+div.sm-content-layout div.sm-layout-cell, div.sm-content-layout div.sm-layout-cell div.sm-content-layout div.sm-layout-cell
+{
+  display: block;
+  overflow: hidden;
+  float: left;
+  clear: right;
+  margin-bottom: -32000px;
+  padding-bottom: 32000px;
+}
+
+div.sm-layout-cell div.sm-layout-cell
+{
+  float: none;
+  clear: both;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}/* end LayoutCell, content */

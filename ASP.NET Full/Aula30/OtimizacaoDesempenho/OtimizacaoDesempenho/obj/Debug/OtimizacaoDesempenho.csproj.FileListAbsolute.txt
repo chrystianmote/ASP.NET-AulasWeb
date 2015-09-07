@@ -1,0 +1,5 @@
+C:\Users\Saulo\Desktop\Aula30\OtimizacaoDesempenho\OtimizacaoDesempenho\bin\OtimizacaoDesempenho.dll
+C:\Users\Saulo\Desktop\Aula30\OtimizacaoDesempenho\OtimizacaoDesempenho\bin\OtimizacaoDesempenho.pdb
+C:\Users\Saulo\Desktop\Aula30\OtimizacaoDesempenho\OtimizacaoDesempenho\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula30\OtimizacaoDesempenho\OtimizacaoDesempenho\obj\Debug\OtimizacaoDesempenho.dll
+C:\Users\Saulo\Desktop\Aula30\OtimizacaoDesempenho\OtimizacaoDesempenho\obj\Debug\OtimizacaoDesempenho.pdb

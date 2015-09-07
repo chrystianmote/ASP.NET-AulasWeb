@@ -1,0 +1,18 @@
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll.config
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.pdb
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\obj\Debug\ResolveAssemblyReference.cache
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll.config
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.dll
+D:\Servidor\Aula37\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.pdb
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll.config
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.dll
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\bin\Debug\eCommerceDAL.pdb
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.dll
+D:\Saulo\Aulas ASP.NET\Aula37 - Saulo\eCommerce\eCommerceDAL\obj\Debug\eCommerceDAL.pdb

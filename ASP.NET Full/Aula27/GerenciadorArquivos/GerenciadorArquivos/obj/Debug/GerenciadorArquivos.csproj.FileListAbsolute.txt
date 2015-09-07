@@ -1,0 +1,15 @@
+C:\Users\Softmark\Desktop\ASP.NET Quarta Matutino\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Matutino\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Matutino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Matutino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Matutino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.pdb
+D:\Saulo\Aulas ASP.NET\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.dll
+D:\Saulo\Aulas ASP.NET\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.pdb
+D:\Saulo\Aulas ASP.NET\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.dll
+D:\Saulo\Aulas ASP.NET\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.pdb

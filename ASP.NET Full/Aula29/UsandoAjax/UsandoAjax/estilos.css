@@ -1,0 +1,25 @@
+﻿body {
+}
+
+.divFundoEscuro
+{
+    opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+	background-color:Black;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	height:1000px;
+	z-index:998;
+}
+
+.divLoading
+{
+    opacity:none;	
+    text-align:center;
+    padding-top:100px;
+    z-index:999;
+    background-color:White;
+}

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="eCommerceModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="eCommerceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Categorias" EntityType="eCommerceModel.Categoria" />
+    <EntitySet Name="ItensPedido" EntityType="eCommerceModel.ItemPedido" />
+    <EntitySet Name="Pedidos" EntityType="eCommerceModel.Pedido" />
+    <EntitySet Name="Produtos" EntityType="eCommerceModel.Produto" />
+    <EntitySet Name="Usuarios" EntityType="eCommerceModel.Usuario" />
+    <AssociationSet Name="FK_Produto_Categoria" Association="eCommerceModel.FK_Produto_Categoria">
+      <End Role="Categoria" EntitySet="Categorias" />
+      <End Role="Produto" EntitySet="Produtos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPedido_Pedido" Association="eCommerceModel.FK_ItemPedido_Pedido">
+      <End Role="Pedido" EntitySet="Pedidos" />
+      <End Role="ItemPedido" EntitySet="ItensPedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemPedido_Produto" Association="eCommerceModel.FK_ItemPedido_Produto">
+      <End Role="Produto" EntitySet="Produtos" />
+      <End Role="ItemPedido" EntitySet="ItensPedido" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pedido_Usuario" Association="eCommerceModel.FK_Pedido_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Pedido" EntitySet="Pedidos" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Categoria">
+    <Key>
+      <PropertyRef Name="IdCategoria" />
+    </Key>
+    <Property Name="IdCategoria" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Produtos" Relationship="eCommerceModel.FK_Produto_Categoria" FromRole="Categoria" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="ItemPedido">
+    <Key>
+      <PropertyRef Name="IdPedido" />
+      <PropertyRef Name="IdProduto" />
+    </Key>
+    <Property Name="IdPedido" Type="Int32" Nullable="false" />
+    <Property Name="IdProduto" Type="Int32" Nullable="false" />
+    <Property Name="PrecoUnitario" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="Quantidade" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Pedido" Relationship="eCommerceModel.FK_ItemPedido_Pedido" FromRole="ItemPedido" ToRole="Pedido" />
+    <NavigationProperty Name="Produto" Relationship="eCommerceModel.FK_ItemPedido_Produto" FromRole="ItemPedido" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="Pedido">
+    <Key>
+      <PropertyRef Name="IdPedido" />
+    </Key>
+    <Property Name="IdPedido" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DataHora" Type="DateTime" Nullable="false" />
+    <Property Name="Status" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="ItensPedido" Relationship="eCommerceModel.FK_ItemPedido_Pedido" FromRole="Pedido" ToRole="ItemPedido" />
+    <NavigationProperty Name="Usuario" Relationship="eCommerceModel.FK_Pedido_Usuario" FromRole="Pedido" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="IdProduto" />
+    </Key>
+    <Property Name="IdProduto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Descricao" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Preco" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="IdCategoria" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Categoria" Relationship="eCommerceModel.FK_Produto_Categoria" FromRole="Produto" ToRole="Categoria" />
+    <NavigationProperty Name="ItensPedido" Relationship="eCommerceModel.FK_ItemPedido_Produto" FromRole="Produto" ToRole="ItemPedido" />
+    <Property Type="Boolean" Name="EmDestaque" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="IdUsuario" />
+    </Key>
+    <Property Name="IdUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Senha" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="CPF" Type="String" Nullable="false" MaxLength="14" Unicode="false" FixedLength="true" />
+    <Property Name="DataNascimento" Type="DateTime" Nullable="false" />
+    <Property Name="TelefoneFixo" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="TelefoneMovel" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EndLogradouro" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="EndNumero" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="EndComplemento" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="EndBairro" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="EndCidade" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="EndUF" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="true" />
+    <Property Name="DataCadastro" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Pedidos" Relationship="eCommerceModel.FK_Pedido_Usuario" FromRole="Usuario" ToRole="Pedido" />
+  </EntityType>
+  <Association Name="FK_Produto_Categoria">
+    <End Role="Categoria" Type="eCommerceModel.Categoria" Multiplicity="1" />
+    <End Role="Produto" Type="eCommerceModel.Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categoria">
+        <PropertyRef Name="IdCategoria" />
+      </Principal>
+      <Dependent Role="Produto">
+        <PropertyRef Name="IdCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPedido_Pedido">
+    <End Role="Pedido" Type="eCommerceModel.Pedido" Multiplicity="1" />
+    <End Role="ItemPedido" Type="eCommerceModel.ItemPedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pedido">
+        <PropertyRef Name="IdPedido" />
+      </Principal>
+      <Dependent Role="ItemPedido">
+        <PropertyRef Name="IdPedido" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemPedido_Produto">
+    <End Role="Produto" Type="eCommerceModel.Produto" Multiplicity="1" />
+    <End Role="ItemPedido" Type="eCommerceModel.ItemPedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="IdProduto" />
+      </Principal>
+      <Dependent Role="ItemPedido">
+        <PropertyRef Name="IdProduto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pedido_Usuario">
+    <End Role="Usuario" Type="eCommerceModel.Usuario" Multiplicity="1" />
+    <End Role="Pedido" Type="eCommerceModel.Pedido" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="IdUsuario" />
+      </Principal>
+      <Dependent Role="Pedido">
+        <PropertyRef Name="IdUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RedeSocialContext" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="RedeSocialEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Albuns" EntityType="RedeSocialContext.Album" />
+    <EntitySet Name="Comentarios" EntityType="RedeSocialContext.Comentario" />
+    <EntitySet Name="Fotos" EntityType="RedeSocialContext.Foto" />
+    <EntitySet Name="Temas" EntityType="RedeSocialContext.Tema" />
+    <EntitySet Name="Usuarios" EntityType="RedeSocialContext.Usuario" />
+    <AssociationSet Name="FK_Album_Tema" Association="RedeSocialContext.FK_Album_Tema">
+      <End Role="Tema" EntitySet="Temas" />
+      <End Role="Album" EntitySet="Albuns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Album_Usuario" Association="RedeSocialContext.FK_Album_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Album" EntitySet="Albuns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Foto_Album" Association="RedeSocialContext.FK_Foto_Album">
+      <End Role="Album" EntitySet="Albuns" />
+      <End Role="Foto" EntitySet="Fotos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comentario_Foto" Association="RedeSocialContext.FK_Comentario_Foto">
+      <End Role="Foto" EntitySet="Fotos" />
+      <End Role="Comentario" EntitySet="Comentarios" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comentario_Usuario" Association="RedeSocialContext.FK_Comentario_Usuario">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Comentario" EntitySet="Comentarios" />
+    </AssociationSet>
+    <AssociationSet Name="Amizade" Association="RedeSocialContext.Amizade">
+      <End Role="Usuario" EntitySet="Usuarios" />
+      <End Role="Usuario1" EntitySet="Usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nome" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Descricao" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DataCriacao" Nullable="false" />
+    <Property Type="Int32" Name="IdTema" Nullable="false" />
+    <Property Type="Int32" Name="IdPessoa" Nullable="false" />
+    <NavigationProperty Name="Tema" Relationship="RedeSocialContext.FK_Album_Tema" FromRole="Album" ToRole="Tema" />
+    <NavigationProperty Name="Usuario" Relationship="RedeSocialContext.FK_Album_Usuario" FromRole="Album" ToRole="Usuario" />
+    <NavigationProperty Name="Fotos" Relationship="RedeSocialContext.FK_Foto_Album" FromRole="Album" ToRole="Foto" />
+  </EntityType>
+  <EntityType Name="Comentario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="IdFoto" Nullable="false" />
+    <Property Type="Int32" Name="IdPessoa" Nullable="false" />
+    <Property Type="String" Name="Texto" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DataCadastro" Nullable="false" />
+    <Property Type="Boolean" Name="Aprovado" Nullable="false" />
+    <NavigationProperty Name="Foto" Relationship="RedeSocialContext.FK_Comentario_Foto" FromRole="Comentario" ToRole="Foto" />
+    <NavigationProperty Name="Usuario" Relationship="RedeSocialContext.FK_Comentario_Usuario" FromRole="Comentario" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Foto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Descricao" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DataCadastro" Nullable="false" />
+    <Property Type="Int32" Name="IdAlbum" Nullable="false" />
+    <NavigationProperty Name="Album" Relationship="RedeSocialContext.FK_Foto_Album" FromRole="Foto" ToRole="Album" />
+    <NavigationProperty Name="Comentarios" Relationship="RedeSocialContext.FK_Comentario_Foto" FromRole="Foto" ToRole="Comentario" />
+  </EntityType>
+  <EntityType Name="Tema">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nome" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Albuns" Relationship="RedeSocialContext.FK_Album_Tema" FromRole="Tema" ToRole="Album" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Nome" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DataNascimento" Nullable="false" />
+    <Property Type="String" Name="Senha" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DataCadastro" Nullable="false" />
+    <NavigationProperty Name="Albuns" Relationship="RedeSocialContext.FK_Album_Usuario" FromRole="Usuario" ToRole="Album" />
+    <NavigationProperty Name="Comentarios" Relationship="RedeSocialContext.FK_Comentario_Usuario" FromRole="Usuario" ToRole="Comentario" />
+    <NavigationProperty Name="Solicitantes" Relationship="RedeSocialContext.Amizade" FromRole="Usuario" ToRole="Usuario1" />
+    <NavigationProperty Name="Convidados" Relationship="RedeSocialContext.Amizade" FromRole="Usuario1" ToRole="Usuario" />
+  </EntityType>
+  <Association Name="FK_Album_Tema">
+    <End Type="RedeSocialContext.Tema" Role="Tema" Multiplicity="1" />
+    <End Type="RedeSocialContext.Album" Role="Album" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tema">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Album">
+        <PropertyRef Name="IdTema" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Album_Usuario">
+    <End Type="RedeSocialContext.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="RedeSocialContext.Album" Role="Album" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Album">
+        <PropertyRef Name="IdPessoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Foto_Album">
+    <End Type="RedeSocialContext.Album" Role="Album" Multiplicity="1" />
+    <End Type="RedeSocialContext.Foto" Role="Foto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Album">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Foto">
+        <PropertyRef Name="IdAlbum" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comentario_Foto">
+    <End Type="RedeSocialContext.Foto" Role="Foto" Multiplicity="1" />
+    <End Type="RedeSocialContext.Comentario" Role="Comentario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Foto">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comentario">
+        <PropertyRef Name="IdFoto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comentario_Usuario">
+    <End Type="RedeSocialContext.Usuario" Role="Usuario" Multiplicity="1" />
+    <End Type="RedeSocialContext.Comentario" Role="Comentario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comentario">
+        <PropertyRef Name="IdPessoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Amizade">
+    <End Type="RedeSocialContext.Usuario" Role="Usuario" Multiplicity="*" />
+    <End Type="RedeSocialContext.Usuario" Role="Usuario1" Multiplicity="*" />
+  </Association>
+</Schema>

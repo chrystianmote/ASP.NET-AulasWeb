@@ -1,0 +1,10 @@
+C:\Users\Saulo\Desktop\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.dll
+C:\Users\Saulo\Desktop\Aula27\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.pdb
+C:\Users\Saulo\Desktop\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.dll
+C:\Users\Saulo\Desktop\Aula27\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.pdb
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.dll
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\GerenciadorArquivos\GerenciadorArquivos\bin\GerenciadorArquivos.pdb
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.dll
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\GerenciadorArquivos\GerenciadorArquivos\obj\Debug\GerenciadorArquivos.pdb

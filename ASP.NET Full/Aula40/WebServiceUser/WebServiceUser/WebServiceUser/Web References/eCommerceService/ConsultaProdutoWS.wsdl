@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ObterPreco">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idProduto" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObterPrecoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ObterPrecoResult" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ObterPrecoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObterPreco" />
+  </wsdl:message>
+  <wsdl:message name="ObterPrecoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObterPrecoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ConsultaProdutoWSSoap">
+    <wsdl:operation name="ObterPreco">
+      <wsdl:input message="tns:ObterPrecoSoapIn" />
+      <wsdl:output message="tns:ObterPrecoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ConsultaProdutoWSSoap" type="tns:ConsultaProdutoWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterPreco">
+      <soap:operation soapAction="http://tempuri.org/ObterPreco" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ConsultaProdutoWSSoap12" type="tns:ConsultaProdutoWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ObterPreco">
+      <soap12:operation soapAction="http://tempuri.org/ObterPreco" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ConsultaProdutoWS">
+    <wsdl:port name="ConsultaProdutoWSSoap" binding="tns:ConsultaProdutoWSSoap">
+      <soap:address location="http://localhost:18500/ConsultaProdutoWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ConsultaProdutoWSSoap12" binding="tns:ConsultaProdutoWSSoap12">
+      <soap12:address location="http://localhost:18500/ConsultaProdutoWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+C:\Users\Saulo\Desktop\Aula28\WebGraphics\WebGraphics\bin\WebGraphics.dll
+C:\Users\Saulo\Desktop\Aula28\WebGraphics\WebGraphics\bin\WebGraphics.pdb
+C:\Users\Saulo\Desktop\Aula28\WebGraphics\WebGraphics\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula28\WebGraphics\WebGraphics\obj\Debug\WebGraphics.dll
+C:\Users\Saulo\Desktop\Aula28\WebGraphics\WebGraphics\obj\Debug\WebGraphics.pdb
+D:\Saulo\Aulas ASP.NET\Aula28 - Saulo\WebGraphics\WebGraphics\bin\WebGraphics.dll
+D:\Saulo\Aulas ASP.NET\Aula28 - Saulo\WebGraphics\WebGraphics\bin\WebGraphics.pdb
+D:\Saulo\Aulas ASP.NET\Aula28 - Saulo\WebGraphics\WebGraphics\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula28 - Saulo\WebGraphics\WebGraphics\obj\Debug\WebGraphics.dll
+D:\Saulo\Aulas ASP.NET\Aula28 - Saulo\WebGraphics\WebGraphics\obj\Debug\WebGraphics.pdb

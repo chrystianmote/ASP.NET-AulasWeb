@@ -1,0 +1,70 @@
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+\\SMSERVER\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+C:\Users\Wagner\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+C:\Users\Ricardo\Desktop\Aula37 e 38 - Ecommerce\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Servidor\Aula39\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Servidor\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.csprojResolveAssemblyReference.cache
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb

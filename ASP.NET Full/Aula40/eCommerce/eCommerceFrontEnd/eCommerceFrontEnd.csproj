@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4293AC82-564B-41D9-B335-F0B0FBF28EEC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eCommerceFrontEnd</RootNamespace>
+    <AssemblyName>eCommerceFrontEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UOL.PagSeguro, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CadastroCliente.aspx" />
+    <Content Include="Catalogo.aspx" />
+    <Content Include="ConsultaPrecoService.asmx" />
+    <Content Include="ConsultaProdutoWS.asmx" />
+    <Content Include="Default.aspx" />
+    <Content Include="DetalhesCarrinho.aspx" />
+    <Content Include="DetalhesProduto.aspx" />
+    <Content Include="FechamentoCompra.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="HistoricoPedidos.aspx" />
+    <Content Include="Images\01.png" />
+    <Content Include="Images\02.png" />
+    <Content Include="Images\03.png" />
+    <Content Include="Images\aumentar.png" />
+    <Content Include="Images\blockcontentbullets.png" />
+    <Content Include="Images\btn_pagseguro.gif" />
+    <Content Include="Images\button.png" />
+    <Content Include="Images\carrinho-cheio.png" />
+    <Content Include="Images\carrinho-vazio.png" />
+    <Content Include="Images\contact.jpg" />
+    <Content Include="Images\edit.png" />
+    <Content Include="Images\footer.png" />
+    <Content Include="Images\header.jpg" />
+    <Content Include="Images\header.png" />
+    <Content Include="Images\page_gl.png" />
+    <Content Include="Images\page_t.jpg" />
+    <Content Include="Images\pedidos.png" />
+    <Content Include="Images\postbullets.png" />
+    <Content Include="Images\postheadericon.png" />
+    <Content Include="Images\postquote.png" />
+    <Content Include="Images\post_h.png" />
+    <Content Include="Images\post_s.png" />
+    <Content Include="Images\post_v.png" />
+    <Content Include="Images\produtos.png" />
+    <Content Include="Images\reduzir.png" />
+    <Content Include="Images\remover.png" />
+    <Content Include="Images\rssicon.png" />
+    <Content Include="Images\sheet_h.png" />
+    <Content Include="Images\sheet_s.png" />
+    <Content Include="Images\sheet_v.png" />
+    <Content Include="Images\smicon.png" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\textareabg.png" />
+    <Content Include="Images\textinputbg.png" />
+    <Content Include="Images\vmenublockheader.png" />
+    <Content Include="Images\vmenuitem.png" />
+    <Content Include="Images\vsubitem.gif" />
+    <Content Include="Styles\Scripts\script.js" />
+    <Content Include="Styles\Scripts\visuallightbox\css\visuallightbox.css" />
+    <Content Include="Styles\Scripts\visuallightbox\css\vlightbox.css" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderBottomCenter.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderBottomLeft.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderBottomRight.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderCorners.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderHoriz.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderMiddleLeft.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderMiddleRight.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderTopCenter.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderTopLeft.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderTopRight.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\borderVert.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\close.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\closelabel.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\loading.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\next.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\next.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\nextlabel.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\next_ie6.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\pause.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\prev.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\prev.png" />
+    <Content Include="Styles\Scripts\visuallightbox\images\prevlabel.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\prev_ie6.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\images\start.gif" />
+    <Content Include="Styles\Scripts\visuallightbox\js\jquery.min.js" />
+    <Content Include="Styles\Scripts\visuallightbox\js\visuallightbox.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Styles\style.ie6.css" />
+    <Content Include="Styles\style.ie7.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CadastroCliente.aspx.cs">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadastroCliente.aspx.designer.cs">
+      <DependentUpon>CadastroCliente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Carrinho.cs" />
+    <Compile Include="Catalogo.aspx.cs">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catalogo.aspx.designer.cs">
+      <DependentUpon>Catalogo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaPrecoService.asmx.cs">
+      <DependentUpon>ConsultaPrecoService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConsultaProdutoWS.asmx.cs">
+      <DependentUpon>ConsultaProdutoWS.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalhesCarrinho.aspx.cs">
+      <DependentUpon>DetalhesCarrinho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalhesCarrinho.aspx.designer.cs">
+      <DependentUpon>DetalhesCarrinho.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DetalhesProduto.aspx.cs">
+      <DependentUpon>DetalhesProduto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DetalhesProduto.aspx.designer.cs">
+      <DependentUpon>DetalhesProduto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="eCommerceUtil.cs" />
+    <Compile Include="FechamentoCompra.aspx.cs">
+      <DependentUpon>FechamentoCompra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FechamentoCompra.aspx.designer.cs">
+      <DependentUpon>FechamentoCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HistoricoPedidos.aspx.cs">
+      <DependentUpon>HistoricoPedidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HistoricoPedidos.aspx.designer.cs">
+      <DependentUpon>HistoricoPedidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Principal.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eCommerceDAL\eCommerceDAL.csproj">
+      <Project>{AB74A677-8098-4575-8FCB-B08F4879B106}</Project>
+      <Name>eCommerceDAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>18500</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

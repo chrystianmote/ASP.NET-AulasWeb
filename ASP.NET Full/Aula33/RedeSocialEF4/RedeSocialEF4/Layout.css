@@ -1,0 +1,104 @@
+﻿body 
+{
+    margin:0;
+    padding:0;
+    font-family:Tahoma,Verdana,Arial;
+    font-size:12px;
+}
+
+#divCabecalho
+{
+    background-position: center;
+    background-image: url('img/cabecalho.jpg');
+    background-color: Black;
+    height: 200px;
+    border-bottom: dotted 1px Gray;
+    background-repeat: no-repeat;
+}
+
+#divCabecalho span
+{
+    font-size:80px;
+    font-weight:bold;
+    color:White;    
+    display:block;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+
+#divCabecalho span span
+{
+    color:#666;
+    display:inline;
+    position:relative;
+    top:0px;
+    left:0px;
+}
+
+#divMenu
+{
+    height: 50px;
+    border-bottom: double 3px gray;
+    background-color: #000066;
+}
+
+#divMenu a
+{
+    line-height:30px;
+    padding:10px 20px;        
+    background-color:#000066;
+    color:White; 
+    display:block;
+    float:left; 
+    font-size:14px;
+    font-variant:small-caps;
+    text-decoration:none;  
+    font-weight:bold;
+}
+
+#divMenu a:hover
+{
+    background-color:#222;
+}
+
+#divConteudo
+{
+    padding:10px;
+    clear:both;
+}
+
+#divRodape
+{
+    font-variant:small-caps;
+    text-align:center;
+    background-color:#444;
+    color:White;
+    padding:5px;
+}
+
+input[type="text"], textarea, input[type="password"]
+{
+    border:solid 2px #555;
+    background-color:#EEE;
+    font-family:Tahoma;
+    font-size:12px;
+    padding:2px;
+}
+
+input[type="text"]:focus, textarea:focus, 
+input[type="password"]:focus
+{    
+    background-color:Silver;
+}
+
+input[type="button"], input[type="submit"]
+{
+    border:solid 2px black;
+    background-color:#000066;
+    color:White;
+    font-family:Tahoma;
+    font-size:12px;
+    font-weight:bold;
+    padding:5px 10px;
+}

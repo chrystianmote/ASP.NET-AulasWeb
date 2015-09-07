@@ -1,0 +1,14 @@
+<profile defaultProvider="MeuProfileProvider">
+      <providers>
+        <clear />
+        <add name="MeuProfileProvider"
+            type="System.Web.Profile.SqlProfileProvider"
+            connectionStringName="ControleUsuariosConnectionString"
+            applicationName="ControleUsuarios" />
+      </providers>
+      <properties>
+        <add name="NomeCompleto" type="String" />
+        <add name="Endereco" type="String" />
+        <add name="Cidade" type="String" />
+      </properties>
+    </profile>

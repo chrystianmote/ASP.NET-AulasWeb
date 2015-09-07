@@ -1,0 +1,35 @@
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+\\SMSERVER\Users\Public\Aula36\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Servidor\Aula37\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+D:\Servidor\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+C:\Users\SAULO\Desktop\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.dll
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceBackEnd.pdb
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.dll
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\bin\eCommerceDAL.pdb
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.dll
+C:\Users\SAULO\Aulas ASP.NET\Aula38\eCommerce\eCommerceBackEnd\obj\Debug\eCommerceBackEnd.pdb

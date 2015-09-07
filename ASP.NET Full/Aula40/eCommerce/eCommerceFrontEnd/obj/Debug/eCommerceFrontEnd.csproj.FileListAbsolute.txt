@@ -1,0 +1,35 @@
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.dll
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.pdb
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.dll
+D:\Servidor\Aula39\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.dll
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.dll
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.pdb
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.dll
+D:\Servidor\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.pdb
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.dll
+C:\Users\SM\Desktop\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.pdb
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.dll
+D:\Saulo\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceFrontEnd.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\bin\eCommerceDAL.pdb
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.csprojResolveAssemblyReference.cache
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.dll
+D:\SGP Design\Diversos\Aulas ASP.NET\Aula40\eCommerce\eCommerceFrontEnd\obj\Debug\eCommerceFrontEnd.pdb

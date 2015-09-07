@@ -1,0 +1,33 @@
+﻿body {
+	font-family: Verdana, Tahoma, Sans-Serif;
+	font-size: 8pt;
+}
+
+#item {
+	float: left;
+	width: 200px;
+	height: 100px;
+	border: 1px solid black;
+	margin: 5px;
+	padding: 5px;
+}
+
+#banner {
+	text-align: center;
+}
+
+#status_carrinho {
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+
+#lista_itens {
+	clear: both;
+}
+
+#item input {
+	border: 1px solid black;
+}

@@ -1,0 +1,15 @@
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula26\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula26\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula26\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula26\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula26\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.pdb
+C:\Users\Saulo\Desktop\Aula27\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.dll
+C:\Users\Saulo\Desktop\Aula27\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.pdb
+C:\Users\Saulo\Desktop\Aula27\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula27\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.dll
+C:\Users\Saulo\Desktop\Aula27\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.pdb
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.dll
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\UsandoMembershipRoles\UsandoMembershipRoles\bin\UsandoMembershipRoles.pdb
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.dll
+D:\Saulo\Aulas ASP.NET\Aula27 - Saulo\UsandoMembershipRoles\UsandoMembershipRoles\obj\Debug\UsandoMembershipRoles.pdb

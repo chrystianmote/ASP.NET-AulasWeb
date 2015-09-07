@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="RedeSocialEF4.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Layout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="divCabecalho">
+            <span>Ork<span>ET</span></span>
+        </div>
+        <div id="divMenu">
+            <a href="~/Default.aspx" runat="server">Principal</a>
+            <a href="~/Cadastro.aspx" runat="server">Cadastro</a>
+            <a href="~/Amigos.aspx" runat="server">Amigos</a>
+            <a href="~/Albuns.aspx" runat="server">Álbuns</a>
+            <asp:LoginStatus runat="server" LoginText="Entrar" 
+                LogoutText="Sair"                 
+                LogoutAction="RedirectToLoginPage" />
+        </div>
+        <div id="divConteudo">
+            <asp:ContentPlaceHolder ID="cphContent" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="divRodape">
+            <p>Ricardo Maroquio<br />
+             Copyright&copy; 2010 :: Todos os direitos reservados
+            </p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

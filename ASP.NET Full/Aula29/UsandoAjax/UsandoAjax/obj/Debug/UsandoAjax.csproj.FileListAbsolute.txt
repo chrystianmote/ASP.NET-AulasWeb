@@ -1,0 +1,10 @@
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula29\UsandoAjax\UsandoAjax\bin\UsandoAjax.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula29\UsandoAjax\UsandoAjax\bin\UsandoAjax.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula29\UsandoAjax\UsandoAjax\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula29\UsandoAjax\UsandoAjax\obj\Debug\UsandoAjax.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula29\UsandoAjax\UsandoAjax\obj\Debug\UsandoAjax.pdb
+D:\Saulo\Aulas ASP.NET\Aula29 - Saulo\UsandoAjax\UsandoAjax\bin\UsandoAjax.dll
+D:\Saulo\Aulas ASP.NET\Aula29 - Saulo\UsandoAjax\UsandoAjax\bin\UsandoAjax.pdb
+D:\Saulo\Aulas ASP.NET\Aula29 - Saulo\UsandoAjax\UsandoAjax\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula29 - Saulo\UsandoAjax\UsandoAjax\obj\Debug\UsandoAjax.dll
+D:\Saulo\Aulas ASP.NET\Aula29 - Saulo\UsandoAjax\UsandoAjax\obj\Debug\UsandoAjax.pdb

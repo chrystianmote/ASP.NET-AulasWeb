@@ -1,0 +1,67 @@
+// Salva uma imagem passada por um FileUpload e cria um thumbnail para ela
+    public static string SaveImageAndThumbnail(FileUpload fupImagem,
+        int larguraImgGrande, int larguraImgPequena, string dirImgServidor,
+        string prefixoArquivoImg)
+    {
+        if (fupImagem.HasFile)
+        {
+            string extensao = Path.GetExtension(fupImagem.PostedFile.FileName);
+            string aux;
+            switch (extensao.ToLower())
+            {
+                case ".bmp":
+                case ".gif":
+                case ".jpg":
+                case ".png":
+                    aux = null;
+                    break;
+                default:
+                    aux = "Arquivo de imagem de tipo inválido!";
+                    break;
+            }
+            if (aux == null)
+            {
+                System.Drawing.Image img = System.Drawing.Image.FromStream(
+                    fupImagem.PostedFile.InputStream);
+
+                double relacao = (double)img.Width / (double)img.Height;
+
+                //http://localhost:50787/iCommerce/Admin/WebsiteAdmin.aspx?IdCategoria=1&IdSubcategoria=9&IdProduto=1
+
+                System.Drawing.Image newImgG = null;
+                if (img.Width > larguraImgGrande)
+                {
+                    newImgG = Utilities.resizeImage(img, larguraImgGrande, Convert.ToInt32(larguraImgGrande / relacao));
+                }
+                else
+                {
+                    newImgG = img;
+                }
+                string pathImgGrande = Path.Combine(dirImgServidor, prefixoArquivoImg + ".G.jpg");
+                Utilities.saveJpeg(pathImgGrande, (Bitmap)newImgG, 100);
+
+                System.Drawing.Image newImgP = null;
+                if (img.Width > 80)
+                {
+                    newImgP = Utilities.resizeImage(img, larguraImgPequena, Convert.ToInt32(larguraImgPequena / relacao));
+                }
+                else
+                {
+                    newImgP = img;
+                }
+                string pathImgPeq = Path.Combine(dirImgServidor, prefixoArquivoImg + ".P.jpg");
+                Utilities.saveJpeg(pathImgPeq, (Bitmap)newImgP, 100);
+
+                img.Dispose();
+                newImgG.Dispose();
+                newImgP.Dispose();
+
+                return "Conversão de imagem e thumbnail ok!";
+            }
+            else
+            {
+                return aux;
+            }
+        }
+        return "Sem arquivo para salvar.";
+    }

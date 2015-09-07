@@ -1,0 +1,5 @@
+D:\Servidor\Aula40\WebServiceUser\WebServiceUser\WebServiceUser\bin\WebServiceUser.dll
+D:\Servidor\Aula40\WebServiceUser\WebServiceUser\WebServiceUser\bin\WebServiceUser.pdb
+D:\Servidor\Aula40\WebServiceUser\WebServiceUser\WebServiceUser\obj\Debug\ResolveAssemblyReference.cache
+D:\Servidor\Aula40\WebServiceUser\WebServiceUser\WebServiceUser\obj\Debug\WebServiceUser.dll
+D:\Servidor\Aula40\WebServiceUser\WebServiceUser\WebServiceUser\obj\Debug\WebServiceUser.pdb

@@ -1,0 +1,181 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="eCommerceBackEnd.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">    
+    <link rel="stylesheet" href="Styles/style.css" type="text/css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" href="Styles/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" href="Styles/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+    <script type="text/javascript" src="Scripts/script.js"></script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="sm-page-background-glare">
+            <div id="sm-page-background-glare-image"></div>
+        </div>
+        <div id="sm-main">
+            <div class="sm-sheet">
+                <div class="sm-sheet-tl"></div>
+                <div class="sm-sheet-tr"></div>
+                <div class="sm-sheet-bl"></div>
+                <div class="sm-sheet-br"></div>
+                <div class="sm-sheet-tc"></div>
+                <div class="sm-sheet-bc"></div>
+                <div class="sm-sheet-cl"></div>
+                <div class="sm-sheet-cr"></div>
+                <div class="sm-sheet-cc"></div>
+                <div class="sm-sheet-body">
+                    <div class="sm-header">
+                        <div class="sm-header-png"></div>
+                        <div class="sm-header-jpeg"></div>
+                        <div class="sm-logo">
+                            <h1 id="name-text" class="sm-logo-name">
+                                <a href="#">Softmark e-Commerce</a></h1>
+                            <div id="slogan-text" class="sm-logo-text">
+                                Área Administrativa</div>
+                        </div>
+                    </div>
+                    <div class="sm-content-layout">
+                        <div class="sm-content-layout-row">
+                            <div class="sm-layout-cell sm-sidebar1">
+                                <div class="sm-vmenublock">
+                                    <div class="sm-vmenublock-body">
+                                        <div class="sm-vmenublockheader">
+                                            <div class="l"></div>
+                                            <div class="r"></div>
+                                            <div class="t">Menu Principal</div>
+                                        </div>
+                                        <div class="sm-vmenublockcontent">
+                                            <div class="sm-vmenublockcontent-body">
+                                                <!-- block-content -->
+                                                <ul class="sm-vmenu">
+                                                    <li><a href="ListaPedidos.aspx"><span class="l"></span><span class="r"></span><span class="t">
+                                                        Pedidos</span></a>
+                                                        <ul>
+                                                            <li><a href="ListaPedidos.aspx?Status=Pendente">Pendentes</a></li>
+                                                            <li><a href="ListaPedidos.aspx?Status=Pago">Pagos</a></li>
+                                                            <li><a href="ListaPedidos.aspx?Status=Enviado">Enviados</a></li>
+                                                            <li><a href="ListaPedidos.aspx?Status=Entregue">Entregues</a></li>                                                            
+                                                            <li><a href="ListaPedidos.aspx?Data=Hoje">De hoje</a></li>
+                                                        </ul>                                                         
+                                                    </li>
+                                                    <li><a href="ListaProdutos.aspx"><span class="l"></span><span class="r"></span><span class="t">
+                                                        Produtos</span></a>
+                                                        <ul>
+                                                            <li><a href="ListaProdutos.aspx?Tipo=EmDestaque">Em destaque</a></li>
+                                                            <li><a href="CadastroProduto.aspx">Cadastrar</a></li>
+                                                        </ul>                                                        
+                                                    </li>
+                                                    <li><a href="ListaCategorias.aspx"><span class="l"></span><span class="r"></span><span class="t">
+                                                        Categorias</span></a>
+                                                        <ul>
+                                                            <li><a href="CadastroCategoria.aspx">Cadastrar</a></li>
+                                                        </ul>                                                        
+                                                    </li>
+                                                    <li><a href="ListaUsuarios.aspx"><span class="l"></span><span class="r"></span><span class="t">
+                                                        Usuários</span></a> 
+                                                        <ul>
+                                                            <li><a href="ListaUsuarios.aspx?Tipo=cadastrador">Cadastradores</a></li>
+                                                            <li><a href="ListaUsuarios.aspx?Tipo=vendedor">Vendedores</a></li>
+                                                            <li><a href="ListaUsuarios.aspx?Tipo=administrador">Administradores</a></li>
+                                                            <li><a href="CadastroUsuario.aspx">Cadastrar</a></li>
+                                                        </ul>                                                         
+                                                    </li>                                                    
+                                                </ul>
+                                                <!-- /block-content -->
+                                                <div class="cleared"></div>
+                                            </div>
+                                        </div>
+                                        <div class="cleared"></div>
+                                    </div>                                    
+                                </div>
+                                <div class="sm-vmenublock">
+                                    <div class="sm-vmenublock-body">
+                                        <div class="sm-vmenublockheader">
+                                            <div class="l"></div>
+                                            <div class="r"></div>
+                                            <div class="t">Identificação</div>
+                                        </div>
+                                        <div class="sm-vmenublockcontent">
+                                            <div class="sm-vmenublockcontent-body">
+                                                <!-- block-content -->
+                                                <asp:LoginView ID="lvLoginForm" runat="server">
+                                                    <AnonymousTemplate>
+                                                        <div class="sm-login-block">
+                                                            <asp:Label ID="lblLoginEmail" runat="server" Text="E-mail:"></asp:Label><br />
+                                                            <asp:TextBox ID="txtLoginEmail" runat="server" Width="168px"></asp:TextBox><br />
+                                                            <asp:Label ID="lblLoginSenha" runat="server" Text="Senha:"></asp:Label><br />
+                                                            <asp:TextBox ID="txtLoginSenha" runat="server" Width="168px" TextMode="Password"></asp:TextBox><br />
+                                                            <center>
+                                                            <span class="sm-button-wrapper">
+                                                    	        <span class="l"> </span>
+                                                    	        <span class="r"> </span>
+                                                                <asp:Button ID="btnLogar" runat="server" Text="Efetuar Login" 
+                                                                    CssClass="sm-button" onclick="btnLogar_Click" />                                                    	        
+                                                            </span>
+                                                            </center>
+                                                        </div>
+                                                    </AnonymousTemplate>
+                                                    <LoggedInTemplate>
+                                                        <div class="sm-login-block">
+                                                            <p>Você está logado como <asp:LoginName ID="LoginName1" runat="server" />.</p>
+                                                            <p><asp:LoginStatus ID="LoginStatus1" runat="server" LogoutText="Clique aqui"/> para sair.</p>
+                                                        </div>                                                        
+                                                    </LoggedInTemplate>
+                                                </asp:LoginView>
+                                                <!-- /block-content -->
+                                                <div class="cleared"></div>
+                                            </div>
+                                        </div>
+                                        <div class="cleared"></div>
+                                    </div>                                    
+                                </div>                                                        
+                            </div>
+                            <div class="sm-layout-cell sm-content">
+                                <div class="sm-post">
+                                    <div class="sm-post-tl"></div>
+                                    <div class="sm-post-tr"></div>
+                                    <div class="sm-post-bl"></div>
+                                    <div class="sm-post-br"></div>
+                                    <div class="sm-post-tc"></div>
+                                    <div class="sm-post-bc"></div>
+                                    <div class="sm-post-cl"></div>
+                                    <div class="sm-post-cr"></div>
+                                    <div class="sm-post-cc"></div>
+                                    <div class="sm-post-body">
+                                        <div class="sm-post-inner sm-article">
+                                            <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                            <div class="cleared"></div>
+                                        </div>
+                                        <div class="cleared"></div>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cleared"></div>
+                    <div class="sm-footer">
+                        <div class="sm-footer-inner">
+                            <a href="http://www.softmark.com.br" class="sm-tag-icon" title="Softmark"></a>
+                            <div class="sm-footer-text">
+                                <p>
+                                    <a href="http://www.softmark.com.br">Sofmark Sistemas e Computação Ltda.</a><br />
+                                    Copyright &copy; 2010 Softmark. Todos os direitos reservados.</p>
+                            </div>
+                        </div>
+                        <div class="sm-footer-background"></div>
+                    </div>
+                    <div class="cleared"></div>
+                </div>
+            </div>
+            <div class="cleared"></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

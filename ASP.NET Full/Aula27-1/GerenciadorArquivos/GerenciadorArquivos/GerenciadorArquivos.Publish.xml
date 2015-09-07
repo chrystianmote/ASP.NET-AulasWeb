@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Saulo\Desktop\GerenciadorDeArquivos" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="img/arquivo.jpg" publishTime="10/06/2010 17:35:25" />
+    <file relUrl="Web.config" publishTime="12/26/2011 15:22:51" />
+    <file relUrl="Default.aspx" publishTime="10/06/2010 17:56:55" />
+    <file relUrl="bin/GerenciadorArquivos.pdb" publishTime="12/26/2011 15:22:49" />
+    <file relUrl="img/pasta.jpg" publishTime="10/06/2010 17:35:25" />
+    <file relUrl="bin/GerenciadorArquivos.dll" publishTime="12/26/2011 15:22:49" />
+  </publishProfile>
+</publishData>
