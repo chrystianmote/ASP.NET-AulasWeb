@@ -1,0 +1,10 @@
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula15\EstilosTemasMasterPages\EstilosTemasMasterPages\bin\EstilosTemasMasterPages.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula15\EstilosTemasMasterPages\EstilosTemasMasterPages\bin\EstilosTemasMasterPages.pdb
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula15\EstilosTemasMasterPages\EstilosTemasMasterPages\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula15\EstilosTemasMasterPages\EstilosTemasMasterPages\obj\Debug\EstilosTemasMasterPages.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula15\EstilosTemasMasterPages\EstilosTemasMasterPages\obj\Debug\EstilosTemasMasterPages.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula16 - Aluno\EstilosTemasMasterPages\bin\EstilosTemasMasterPages.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula16 - Aluno\EstilosTemasMasterPages\bin\EstilosTemasMasterPages.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula16 - Aluno\EstilosTemasMasterPages\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula16 - Aluno\EstilosTemasMasterPages\obj\Debug\EstilosTemasMasterPages.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula16 - Aluno\EstilosTemasMasterPages\obj\Debug\EstilosTemasMasterPages.pdb

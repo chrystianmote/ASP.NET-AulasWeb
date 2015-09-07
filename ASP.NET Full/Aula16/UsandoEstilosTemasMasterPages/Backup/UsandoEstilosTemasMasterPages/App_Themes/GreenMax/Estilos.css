@@ -1,0 +1,64 @@
+﻿body
+{
+    margin:0px;
+    padding:0px;
+}
+
+#divCabecalho
+{
+    height:200px;
+    width:800px;
+    color:Yellow;
+}
+
+#divMenuEsquerdo
+{
+    height:380px;
+    width:180px;
+    float:left;
+    padding:10px;
+    background-color: #385C39;
+}
+
+#divConteudo
+{
+    height:360px;
+    width:560px;
+    clear:right;
+    padding:10px;
+    overflow:scroll;
+    overflow-x:hidden;
+    margin-left:200px;
+    border: solid 10px #385C39;
+}
+
+#divRodape
+{
+    width:720px;
+    padding:30px;
+    text-align:center;
+    border: solid 10px #385C39;
+}
+
+#divPagina
+{
+    width:800px;
+    text-align:left;
+}
+
+a.menu
+{
+    display: block;
+    height: 30px;
+    font-variant: small-caps;
+    font-size: medium;
+    font-weight: bold;
+    width: 180px;
+    background-color: #385C39;
+    color: #FFFFFF;
+}
+
+a.menu:hover
+{
+    background-color: #263E27;
+}

@@ -1,0 +1,8 @@
+* Adicionar um FormView (fvCasa)
+* Adicionar um SqlDataSource (sqldsCasa)
+* Configurar SqlDataSource:
+id, id_categoria, nome, descricao, preco_minimo, data_finalizacao
+* Mudar fvCasa para modo Insert
+* Configurar Page_Load
+* Interceptar comandos (ItemCommand, ItemInserted, ItemUpdated)
+* Acertar nomes de campos e comandos do EditItemTemplate e InsertItemTemplate

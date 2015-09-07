@@ -1,0 +1,15 @@
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula18\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula18\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula18\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula18\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula18\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula19 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb

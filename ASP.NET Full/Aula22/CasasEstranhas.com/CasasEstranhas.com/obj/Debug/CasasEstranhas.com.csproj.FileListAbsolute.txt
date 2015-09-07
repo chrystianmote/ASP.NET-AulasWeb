@@ -1,0 +1,10 @@
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula21\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula21\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.pdb
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula21\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula21\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Vespertino\Aula21\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.pdb
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula22 - Aluno\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula22 - Aluno\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.pdb
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula22 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula22 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula22 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.pdb

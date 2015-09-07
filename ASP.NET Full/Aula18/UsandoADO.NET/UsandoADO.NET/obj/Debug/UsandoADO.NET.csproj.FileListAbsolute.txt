@@ -1,0 +1,15 @@
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula 18 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula 18 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula 18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula 18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula 18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula18 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula18 - Aluno\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula18 - Aluno\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb
+D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.dll
+D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET\bin\UsandoADO.NET.pdb
+D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.dll
+D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET\obj\Debug\UsandoADO.NET.pdb

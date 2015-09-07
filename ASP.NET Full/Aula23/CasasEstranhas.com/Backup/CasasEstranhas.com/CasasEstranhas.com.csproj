@@ -1,0 +1,295 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0F2CD141-9066-419A-98F5-DBFC6FE185AB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CasasEstranhas.com</RootNamespace>
+    <AssemblyName>CasasEstranhas.com</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\bg.gif" />
+    <Content Include="img\bgcontainer.gif" />
+    <Content Include="img\bgfooter.gif" />
+    <Content Include="img\casas\0001.jpg" />
+    <Content Include="img\casas\0002.jpg" />
+    <Content Include="img\casas\0003.jpg" />
+    <Content Include="img\casas\0004.jpg" />
+    <Content Include="img\casas\0005.jpg" />
+    <Content Include="img\casas\0006.jpg" />
+    <Content Include="img\casas\0007.jpg" />
+    <Content Include="img\casas\0008.jpg" />
+    <Content Include="img\casas\0009.jpg" />
+    <Content Include="img\casas\0010.jpg" />
+    <Content Include="img\casas\0011.jpg" />
+    <Content Include="img\casas\0012.jpg" />
+    <Content Include="img\casas\0013.jpg" />
+    <Content Include="img\casas\0014.jpg" />
+    <Content Include="img\casas\0015.jpg" />
+    <Content Include="img\casas\0016.jpg" />
+    <Content Include="img\casas\0017.jpg" />
+    <Content Include="img\casas\0018.JPG" />
+    <Content Include="img\casas\0019.jpg" />
+    <Content Include="img\casas\0020.jpg" />
+    <Content Include="img\casas\0021.jpg" />
+    <Content Include="img\casas\0022.jpg" />
+    <Content Include="img\casas\0023.jpg" />
+    <Content Include="img\casas\0024.jpg" />
+    <Content Include="img\casas\0025.jpg" />
+    <Content Include="img\header.jpg" />
+    <Content Include="img\li.gif" />
+    <Content Include="img\titulo_cabecalho.png" />
+    <Content Include="index.html" />
+    <Content Include="style.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\FormCasa.aspx.cs">
+      <DependentUpon>FormCasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\FormCasa.aspx.designer.cs">
+      <DependentUpon>FormCasa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\FormCategoria.aspx.cs">
+      <DependentUpon>FormCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\FormCategoria.aspx.designer.cs">
+      <DependentUpon>FormCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EfetuarLance.aspx.cs">
+      <DependentUpon>EfetuarLance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EfetuarLance.aspx.designer.cs">
+      <DependentUpon>EfetuarLance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin\Admin.aspx" />
+    <Content Include="admin\FormCasa.aspx" />
+    <Content Include="admin\FormCategoria.aspx" />
+    <Content Include="App_Data\CasasEstranhas.mdf">
+    </Content>
+    <Content Include="App_Data\CasasEstranhas_log.ldf">
+      <DependentUpon>CasasEstranhas.mdf</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="EfetuarLance.aspx" />
+    <Content Include="img\btn_alterar.png" />
+    <Content Include="img\btn_casas.png" />
+    <Content Include="img\btn_excluir.png" />
+    <Content Include="img\btn_inserir.png" />
+    <Content Include="img\home.png" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\dirup.png" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\folder.png" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\gif.gif" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\jpg.gif" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\psd.gif" />
+    <Content Include="openwysiwyg\addons\imagelibrary\images\unknown.png" />
+    <Content Include="openwysiwyg\docs\addons.html" />
+    <Content Include="openwysiwyg\docs\doc.html" />
+    <Content Include="openwysiwyg\docs\images\logo.gif" />
+    <Content Include="openwysiwyg\docs\style.css" />
+    <Content Include="openwysiwyg\example.html" />
+    <Content Include="openwysiwyg\images\backcolor.gif" />
+    <Content Include="openwysiwyg\images\backcolor_on.gif" />
+    <Content Include="openwysiwyg\images\background_silver.jpg" />
+    <Content Include="openwysiwyg\images\bold.gif" />
+    <Content Include="openwysiwyg\images\bold_on.gif" />
+    <Content Include="openwysiwyg\images\copy.gif" />
+    <Content Include="openwysiwyg\images\copy_on.gif" />
+    <Content Include="openwysiwyg\images\cut.gif" />
+    <Content Include="openwysiwyg\images\cut_on.gif" />
+    <Content Include="openwysiwyg\images\delete.gif" />
+    <Content Include="openwysiwyg\images\delete_on.gif" />
+    <Content Include="openwysiwyg\images\forecolor.gif" />
+    <Content Include="openwysiwyg\images\forecolor_on.gif" />
+    <Content Include="openwysiwyg\images\help.gif" />
+    <Content Include="openwysiwyg\images\help_on.gif" />
+    <Content Include="openwysiwyg\images\indent_left.gif" />
+    <Content Include="openwysiwyg\images\indent_left_on.gif" />
+    <Content Include="openwysiwyg\images\indent_right.gif" />
+    <Content Include="openwysiwyg\images\indent_right_on.gif" />
+    <Content Include="openwysiwyg\images\insert_hyperlink.gif" />
+    <Content Include="openwysiwyg\images\insert_hyperlink_on.gif" />
+    <Content Include="openwysiwyg\images\insert_picture.gif" />
+    <Content Include="openwysiwyg\images\insert_picture_on.gif" />
+    <Content Include="openwysiwyg\images\insert_table.gif" />
+    <Content Include="openwysiwyg\images\insert_table_on.gif" />
+    <Content Include="openwysiwyg\images\italics.gif" />
+    <Content Include="openwysiwyg\images\italics_on.gif" />
+    <Content Include="openwysiwyg\images\justify_center.gif" />
+    <Content Include="openwysiwyg\images\justify_center_on.gif" />
+    <Content Include="openwysiwyg\images\justify_justify.gif" />
+    <Content Include="openwysiwyg\images\justify_justify_on.gif" />
+    <Content Include="openwysiwyg\images\justify_left.gif" />
+    <Content Include="openwysiwyg\images\justify_left_on.gif" />
+    <Content Include="openwysiwyg\images\justify_right.gif" />
+    <Content Include="openwysiwyg\images\justify_right_on.gif" />
+    <Content Include="openwysiwyg\images\list_ordered.gif" />
+    <Content Include="openwysiwyg\images\list_ordered_on.gif" />
+    <Content Include="openwysiwyg\images\list_unordered.gif" />
+    <Content Include="openwysiwyg\images\list_unordered_on.gif" />
+    <Content Include="openwysiwyg\images\logo.gif" />
+    <Content Include="openwysiwyg\images\maximize.gif" />
+    <Content Include="openwysiwyg\images\maximize_on.gif" />
+    <Content Include="openwysiwyg\images\paste.gif" />
+    <Content Include="openwysiwyg\images\paste_on.gif" />
+    <Content Include="openwysiwyg\images\preview.gif" />
+    <Content Include="openwysiwyg\images\preview_on.gif" />
+    <Content Include="openwysiwyg\images\print.gif" />
+    <Content Include="openwysiwyg\images\print_on.gif" />
+    <Content Include="openwysiwyg\images\redo.gif" />
+    <Content Include="openwysiwyg\images\redo_on.gif" />
+    <Content Include="openwysiwyg\images\remove_format.gif" />
+    <Content Include="openwysiwyg\images\remove_format_on.gif" />
+    <Content Include="openwysiwyg\images\return.gif" />
+    <Content Include="openwysiwyg\images\return_on.gif" />
+    <Content Include="openwysiwyg\images\save.gif" />
+    <Content Include="openwysiwyg\images\save_on.gif" />
+    <Content Include="openwysiwyg\images\select_font.gif" />
+    <Content Include="openwysiwyg\images\select_font_on.gif" />
+    <Content Include="openwysiwyg\images\select_heading.gif" />
+    <Content Include="openwysiwyg\images\select_heading_on.gif" />
+    <Content Include="openwysiwyg\images\select_size.gif" />
+    <Content Include="openwysiwyg\images\select_size_on.gif" />
+    <Content Include="openwysiwyg\images\seperator.gif" />
+    <Content Include="openwysiwyg\images\seperator2.gif" />
+    <Content Include="openwysiwyg\images\settings.gif" />
+    <Content Include="openwysiwyg\images\strikethrough.gif" />
+    <Content Include="openwysiwyg\images\strikethrough_on.gif" />
+    <Content Include="openwysiwyg\images\subscript.gif" />
+    <Content Include="openwysiwyg\images\subscript_on.gif" />
+    <Content Include="openwysiwyg\images\superscript.gif" />
+    <Content Include="openwysiwyg\images\superscript_on.gif" />
+    <Content Include="openwysiwyg\images\underline.gif" />
+    <Content Include="openwysiwyg\images\underline_on.gif" />
+    <Content Include="openwysiwyg\images\undo.gif" />
+    <Content Include="openwysiwyg\images\undo_on.gif" />
+    <Content Include="openwysiwyg\images\view_source.gif" />
+    <Content Include="openwysiwyg\images\view_source_on.gif" />
+    <Content Include="openwysiwyg\images\view_text.gif" />
+    <Content Include="openwysiwyg\images\view_text_on.gif" />
+    <Content Include="openwysiwyg\popups\about.html" />
+    <Content Include="openwysiwyg\popups\about_license.html" />
+    <Content Include="openwysiwyg\popups\create_table.html" />
+    <Content Include="openwysiwyg\popups\insert_hyperlink.html" />
+    <Content Include="openwysiwyg\popups\insert_image.html" />
+    <Content Include="openwysiwyg\popups\license.html" />
+    <Content Include="openwysiwyg\popups\preview.html" />
+    <Content Include="openwysiwyg\popups\select_color.html" />
+    <Content Include="openwysiwyg\scripts\wysiwyg-color.js" />
+    <Content Include="openwysiwyg\scripts\wysiwyg-popup.js" />
+    <Content Include="openwysiwyg\scripts\wysiwyg-settings.js" />
+    <Content Include="openwysiwyg\scripts\wysiwyg.js" />
+    <Content Include="openwysiwyg\styles\wysiwyg.css" />
+    <Content Include="openwysiwyg\uploads\hagbard.jpg" />
+    <Content Include="Principal.Master" />
+    <Content Include="scripts\jquery-1.4.2.js" />
+    <Content Include="scripts\jquery.meio.mask.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openwysiwyg\addons\imagelibrary\changelog" />
+    <None Include="openwysiwyg\addons\imagelibrary\config.inc.php" />
+    <None Include="openwysiwyg\addons\imagelibrary\insert_image.php" />
+    <None Include="openwysiwyg\addons\imagelibrary\select_image.php" />
+    <None Include="openwysiwyg\changelog" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50195</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

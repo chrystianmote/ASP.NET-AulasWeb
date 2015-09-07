@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="SitePessoal.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title> 
+        <asp:ContentPlaceHolder ID="cphTituloSite" runat="server">
+            Site Pessoal de Ricardo Maroquio :: 
+        </asp:ContentPlaceHolder>   
+        <asp:ContentPlaceHolder ID="cphHead" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <center>
+        <div id="divPagina">
+            <%--cabeçalho--%>
+            <div id="divCabecalho">
+                <asp:Image ID="imgCabecalho" SkinID="Cabecalho" runat="server" />
+            </div>
+            <%--menu esquerdo--%>
+            <div id="divMenuEsquerdo">
+                <a class="menu" href="Default.aspx">Principal</a>
+                <a class="menu" href="Default.aspx">Quem Sou</a>
+                <a class="menu" href="Default.aspx">Portfólio</a>
+                <a class="menu" href="Default.aspx">Currículo</a>
+                <a class="menu" href="Default.aspx">Serviços</a>
+                <a class="menu" href="Default.aspx">Contato</a>
+            </div>
+            <%--conteúdo--%>
+            <div id="divConteudo" >
+                <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <%--rodapé--%>
+            <div id="divRodape">
+                <span style="line-height:40px;vertical-align:middle;">
+                    Copyright &copy; 2010 - Ricardo Maroquio Bernardo<br />
+                    Todos os direitos reservados
+                </span>
+            </div>
+        </div>
+        </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula25\UsandoMembership\UsandoMembership\bin\UsandoMembership.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula25\UsandoMembership\UsandoMembership\bin\UsandoMembership.pdb
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula25\UsandoMembership\UsandoMembership\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula25\UsandoMembership\UsandoMembership\obj\Debug\UsandoMembership.dll
+C:\Users\Softmark\Desktop\ASP.NET Quarta Vespertino\Aula25\UsandoMembership\UsandoMembership\obj\Debug\UsandoMembership.pdb

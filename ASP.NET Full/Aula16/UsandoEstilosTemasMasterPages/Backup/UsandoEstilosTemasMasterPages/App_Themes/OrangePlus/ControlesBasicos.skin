@@ -1,0 +1,6 @@
+﻿<asp:ListBox runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:TextBox runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:Button runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:ImageButton runat="server" SkinID="BotaoOK" ImageUrl="img/btn_ok.gif" />
+<asp:ImageButton runat="server" SkinID="BotaoCancelar" ImageUrl="img/btn_cancelar.gif" />
+<asp:Image runat="server" SkinID="Cabecalho" ImageUrl="img/cabecalho.jpg" />

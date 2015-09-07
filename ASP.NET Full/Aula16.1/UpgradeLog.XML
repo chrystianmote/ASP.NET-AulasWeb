@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="EstilosTemasMasterPages">
+</Property><Property Name="Solution File" Value="D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\EstilosTemasMasterPages.sln">
+</Property><Property Name="User Options File" Value="D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\EstilosTemasMasterPages.suo">
+</Property><Property Name="Date" Value="quarta-feira, 4 de agosto de 2010">
+</Property><Property Name="Time" Value="18:45">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="EstilosTemasMasterPages.sln" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages.sln">
+</Event><Event ErrorLevel="0" Project="" Source="EstilosTemasMasterPages.suo" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages.suo">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\EstilosTemasMasterPages.csproj" Description="Project file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\EstilosTemasMasterPages.csproj">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\EstilosTemasMasterPages.csproj.user" Description="Project user file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\EstilosTemasMasterPages.csproj.user">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\Default.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\Default.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\Default.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\Default.aspx">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\Web.config" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\Web.config">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\App_Themes\Orange\Estilos.css" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\App_Themes\Orange\Estilos.css">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\App_Themes\Orange\Orange.skin" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\App_Themes\Orange\Orange.skin">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\App_Themes\Red\Skin1.skin" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula16.1 - Saulo\Backup\EstilosTemasMasterPages\App_Themes\Red\Skin1.skin">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\EstilosTemasMasterPages.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\EstilosTemasMasterPages.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="EstilosTemasMasterPages.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="EstilosTemasMasterPages.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="EstilosTemasMasterPages" Source="EstilosTemasMasterPages\EstilosTemasMasterPages.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

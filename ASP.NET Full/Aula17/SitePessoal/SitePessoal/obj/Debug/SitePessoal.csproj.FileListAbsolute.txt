@@ -1,0 +1,10 @@
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula16\SitePessoal\SitePessoal\bin\SitePessoal.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula16\SitePessoal\SitePessoal\bin\SitePessoal.pdb
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula16\SitePessoal\SitePessoal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula16\SitePessoal\SitePessoal\obj\Debug\SitePessoal.dll
+C:\Users\Ricardo\Desktop\ASP.NET Quarta Matutino\Aula16\SitePessoal\SitePessoal\obj\Debug\SitePessoal.pdb
+D:\Saulo\Aulas ASP.NET\Aula17 - Saulo\SitePessoal\SitePessoal\bin\SitePessoal.dll
+D:\Saulo\Aulas ASP.NET\Aula17 - Saulo\SitePessoal\SitePessoal\bin\SitePessoal.pdb
+D:\Saulo\Aulas ASP.NET\Aula17 - Saulo\SitePessoal\SitePessoal\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula17 - Saulo\SitePessoal\SitePessoal\obj\Debug\SitePessoal.dll
+D:\Saulo\Aulas ASP.NET\Aula17 - Saulo\SitePessoal\SitePessoal\obj\Debug\SitePessoal.pdb

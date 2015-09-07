@@ -1,0 +1,5 @@
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula21 - Aluno\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula21 - Aluno\CasasEstranhas.com\CasasEstranhas.com\bin\CasasEstranhas.com.pdb
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula21 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula21 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.dll
+C:\Users\Saulo\Documents\Saulo\Aulas Saulo\Aula21 - Aluno\CasasEstranhas.com\CasasEstranhas.com\obj\Debug\CasasEstranhas.com.pdb

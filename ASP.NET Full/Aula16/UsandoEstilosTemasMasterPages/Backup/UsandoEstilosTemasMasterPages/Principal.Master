@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs" Inherits="UsandoEstilosTemasMasterPages.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <center>
+    <div id="divPagina">
+        <%--cabeçalho--%>
+        <div id="divCabecalho">
+            <asp:Image ID="imgCabecalho" runat="server" SkinID="Cabecalho"/>
+        </div>
+        
+        <%--menu esquerdo--%>
+        <div id="divMenuEsquerdo">
+            <a class="menu" href="Home.aspx">Principal</a>
+            <a class="menu" href="QuemSou.aspx">Quem Sou</a>
+            <a class="menu" href="Portfolio.aspx">Portfólio</a>
+            <a class="menu" href="Servicos.aspx">Serviços</a>
+            <a class="menu" href="Contato.aspx">Contato</a>
+        </div>
+        
+        <%--conteúdo--%>
+        <div id="divConteudo">
+            <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <%--rodapé--%>
+        <div id="divRodape">
+            Copyright &copy; Ricardo Maroquio Bernardo<br />
+            Todos os direitos resevados
+        </div>
+    </div>
+    </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="UsandoADO.NET">
+</Property><Property Name="Solution File" Value="D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET.sln">
+</Property><Property Name="User Options File" Value="D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\UsandoADO.NET.suo">
+</Property><Property Name="Date" Value="sexta-feira, 20 de agosto de 2010">
+</Property><Property Name="Time" Value="11:57">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="UsandoADO.NET.sln" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET.sln">
+</Event><Event ErrorLevel="0" Project="" Source="UsandoADO.NET.suo" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET.suo">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\UsandoADO.NET.csproj" Description="Project file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\UsandoADO.NET.csproj">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\UsandoADO.NET.csproj.user" Description="Project user file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\UsandoADO.NET.csproj.user">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\Default.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\Default.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoas.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoas.aspx.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoas.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoas.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoasDataSource.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoasDataSource.aspx.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoasDataSource.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoasDataSource.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\Default.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\Default.aspx">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoas.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoas.aspx">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\ListaPessoasDataSource.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\ListaPessoasDataSource.aspx">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\Web.config" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula18 - Saulo\UsandoADO.NET\Backup\UsandoADO.NET\Web.config">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\UsandoADO.NET.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="UsandoADO.NET" Source="UsandoADO.NET\UsandoADO.NET.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="UsandoADO.NET.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="UsandoADO.NET.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="UsandoADO.NET" Source="UsandoADO.NET\UsandoADO.NET.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

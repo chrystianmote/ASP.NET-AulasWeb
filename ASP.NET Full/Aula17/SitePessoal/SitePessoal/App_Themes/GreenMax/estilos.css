@@ -1,0 +1,58 @@
+﻿span
+{
+    color:White;
+    background-color:Green;
+}
+a.menu
+{
+    display:block;
+    height:25px;
+    width:180px;
+    font-size:14px;
+    font-family:Tahoma;
+    background-color:Green;
+    color:White;
+    text-decoration:none;
+    cursor:pointer;
+}
+a.menu:hover
+{
+    text-decoration:underline;
+    background-color:#00AA00;
+}
+#divCabecalho
+{
+    height:200px;
+    width:800px;
+    color:Yellow;
+    background-color:Silver;
+}
+#divMenuEsquerdo
+{
+    height:380px;
+    width:180px;
+    background-color:Blue;
+    float:left;
+    padding:10px;
+}
+#divConteudo
+{
+    height:400px;
+    width:600px;
+    background-color:Red;
+    clear:right;
+    margin-left:200px;
+}
+#divRodape
+{
+    height:80px;
+    width:800px;
+    background-color:Green;
+    text-align:center;
+}
+
+#divPagina
+{
+    width:800px;
+    text-align:left;
+}

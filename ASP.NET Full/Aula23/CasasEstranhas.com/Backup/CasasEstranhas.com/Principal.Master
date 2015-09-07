@@ -1,0 +1,169 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Principal.master.cs"
+    Inherits="CasasEstranhas.com.Principal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta name="description" content="Site de leilão de casas estranhas." />
+    <meta name="keywords" content="casas estranhas leilão" />
+    <meta name="author" content="Ricardo Maroquio" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>CasasEstranhas.com :: Leilão de casas exóticas espalhadas pelo mundo</title>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    <script src="scripts/jquery-1.4.2.js" type="text/javascript"></script>
+    <script src="scripts/jquery.meio.mask.js" type="text/javascript"></script>
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+        jQuery('input:text').setMask();
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div class="left" id="main_left">
+            <div id="header">
+                <img src="~/img/titulo_cabecalho.png" runat="server" alt="CasasEstranhas.Com" />
+            </div>
+            <div class="right" id="main">
+                <div class="padded">
+                    <br />
+                    <asp:ContentPlaceHolder ID="cphConteudo" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="left" id="subnav">
+                
+                <center style="padding:10px 0 10px 0;">
+                    <a runat="server" href="~/Default.aspx" >
+                        <img src="~/img/home.png" runat="server" alt="Principal" title="Principal" />
+                    </a>
+                </center>
+                
+                <h2>
+                    Tipos de Casas</h2>
+                <hr />
+                <asp:ListView ID="lvCategorias" runat="server" DataSourceID="sqldsCategorias" 
+                    onitemdatabound="lvCategorias_ItemDataBound">
+                    <LayoutTemplate>
+                        <div runat="server" id="itemPlaceholderContainer">
+                            <span runat="server" id="itemPlaceholder">
+                            </span>
+                        </div>
+                    </LayoutTemplate>
+                    <ItemTemplate>
+                        <h1>
+                            <asp:HyperLink ID="hlCategoria" runat="server" 
+                                NavigateUrl='<%# "~/Default.aspx?categoria=" + Eval("id") %>' >
+                                <%# Eval("descricao") %>
+                            </asp:HyperLink><br />
+                        </h1>
+                        
+                        <%--usado para guardar o id da categoria que servirá de filtro
+                        para as casas que serão mostradas dentro de cada categoria--%>
+                        <asp:HiddenField runat="server" ID="hdfIdCategoria" 
+                            Value='<%# Eval("id") %>' />
+                            
+                        <asp:ListView ID="lvCasasPorCategoria" runat="server">
+                            <LayoutTemplate>
+                                <ul runat="server" id="itemPlaceholderContainer">
+                                    <span runat="server" id="itemPlaceholder">
+                                    </span>
+                                </ul>
+                            </LayoutTemplate>
+                            <ItemTemplate>
+                                <li>
+                                    <a runat="server" href='<%# "~/EfetuarLance.aspx?casa=" + Eval("id") %>'>
+                                        <%# Eval("nome") %>
+                                    </a>
+                                </li>
+                            </ItemTemplate>
+                            <EmptyDataTemplate>
+                                <li>
+                                    <a href="#">
+                                        Não há casas.
+                                    </a>
+                                </li>
+                            </EmptyDataTemplate>
+                        </asp:ListView>
+                            
+                    </ItemTemplate>
+                </asp:ListView>
+                <asp:SqlDataSource ID="sqldsCategorias" runat="server" 
+                    ConnectionString="<%$ ConnectionStrings:CasasEstranhasConnectionString %>" 
+                    SelectCommand="SELECT [id], [descricao] FROM [Categoria] ORDER BY [descricao]">
+                </asp:SqlDataSource>
+                <asp:SqlDataSource ID="sqldsCasasPorCategoria" runat="server" 
+                    ConnectionString="<%$ ConnectionStrings:CasasEstranhasConnectionString %>" 
+                    SelectCommand="SELECT TOP 3 [id], [nome] FROM [Casa] WHERE ([id_categoria] = @id_categoria) 
+AND ( data_finalizacao &gt; getdate() )
+ORDER BY [data_cadastro] DESC">
+                    <SelectParameters>
+                        <asp:Parameter Name="id_categoria" Type="Int32" />
+                    </SelectParameters>
+                </asp:SqlDataSource>
+            </div>
+            <div class="clearer">
+                &nbsp;</div>
+        </div>
+        <div class="right" id="main_right">
+            <div class="padded">
+                <h4>
+                    Casa mais recente</h4>
+                <img src="~/img/casas/0020.jpg" runat="server" width="172" alt="" class="alignleft" />
+                <h3>
+                    Nevada no Mar</h3>
+                <p class="text-justify">
+                    Esta casa se encontra na costa do oceano Pacífico, próxima ao território da Patagônia.
+                    Totalmente construída sobre o gelo, a casa dispensa qualquer tipo de mecanismo de
+                    refrigeração, conta com sistema telefônico via satélite, que também provê acesso
+                    à Internet. Ótima para passar temporada. Basta levar a alimentação, vara de pescar,
+                    roupa de frio, e curtir o som do nada.
+                </p>
+                <h6>
+                    Diferenciais:</h6>
+                <ul>
+                    <li>6 quartos com janela</li>
+                    <li>4 garagens para JetSky</li>
+                    <li>Vedação térmica central</li>
+                    <li>Compartimento escuro</li>
+                    <li>Camas aquecidas</li>
+                </ul>
+                <p>
+                    <b>Lance atual: </b>R$ 900.000,00<br />
+                    <b>Executor do lance: </b>Peter Gallac<br />
+                    <a href="#">Quero dar um lance</a>
+                </p>
+                <div style="height: 50px;">
+                </div>
+                <div class="bordered">
+                    <h3>
+                        Identifique-se</h3>
+                    <h6>
+                        Usuário:</h6>
+                    <input type="text" />
+                    <h6>
+                        Senha:</h6>
+                    <input type="text" /><br />
+                    <h6>
+                    </h6>
+                    <input type="submit" value="Entrar" />
+                </div>
+            </div>
+        </div>
+        <div class="clearer">
+            &nbsp;</div>
+        <div id="footer">
+            <span class="left">&copy; 2009 <a href="index.html">CasasEsquisitas.com</a>. Aprovado
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> &amp; <a href="http://validator.w3.org/check?uri=referer">
+                    XHTML</a></span> <span class="right">Desenvolvido por <a href="http://www.softmark.com.br/">
+                        Softmark</a></span>
+            <div class="clearer">
+                &nbsp;</div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿<asp:ListBox runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:TextBox runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:Button runat="server" ForeColor="White" BackColor="Orange"/>
+<asp:ImageButton runat="server" SkinID="BotaoOK" ImageUrl="img/btn_ok.gif" />
+<asp:ImageButton runat="server" SkinID="BotaoCancelar" ImageUrl="img/btn_cancelar.gif" />
+<asp:Image runat="server" SkinID="Cabecalho" ImageUrl="img/cabecalho.jpg" />
+
+<asp:Calendar runat="server" BackColor="White" 
+    BorderColor="#999999" CellPadding="4" DayNameFormat="Shortest" 
+    Font-Names="Arial" Font-Size="10pt" ForeColor="#FF6600" Height="180px" 
+    Width="200px">
+    <SelectedDayStyle BackColor="#666666" Font-Bold="True" ForeColor="White" />
+    <SelectorStyle BackColor="#CCCCCC" />
+    <WeekendDayStyle BackColor="#FFFFCC" />
+    <TodayDayStyle BackColor="#CCCCCC" ForeColor="Black" />
+    <OtherMonthDayStyle ForeColor="#808080" />
+    <NextPrevStyle VerticalAlign="Bottom" />
+    <DayHeaderStyle BackColor="#CCCCCC" Font-Bold="True" Font-Size="7pt" />
+    <TitleStyle BackColor="#999999" BorderColor="Black" Font-Bold="True" />
+</asp:Calendar>
