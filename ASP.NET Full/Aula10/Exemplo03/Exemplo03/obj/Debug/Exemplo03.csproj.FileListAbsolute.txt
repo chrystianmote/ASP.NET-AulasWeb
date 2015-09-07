@@ -1,0 +1,5 @@
+C:\Users\Matheus\Desktop\aulas\Aula-10\Exemplo03\Exemplo03\bin\Debug\Exemplo03.exe
+C:\Users\Matheus\Desktop\aulas\Aula-10\Exemplo03\Exemplo03\bin\Debug\Exemplo03.pdb
+C:\Users\Matheus\Desktop\aulas\Aula-10\Exemplo03\Exemplo03\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matheus\Desktop\aulas\Aula-10\Exemplo03\Exemplo03\obj\Debug\Exemplo03.exe
+C:\Users\Matheus\Desktop\aulas\Aula-10\Exemplo03\Exemplo03\obj\Debug\Exemplo03.pdb

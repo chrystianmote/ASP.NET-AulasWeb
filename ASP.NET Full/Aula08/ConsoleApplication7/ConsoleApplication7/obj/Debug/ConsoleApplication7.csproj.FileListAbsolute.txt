@@ -1,0 +1,5 @@
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula08 - Aluno\ConsoleApplication7\ConsoleApplication7\bin\Debug\ConsoleApplication7.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula08 - Aluno\ConsoleApplication7\ConsoleApplication7\bin\Debug\ConsoleApplication7.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula08 - Aluno\ConsoleApplication7\ConsoleApplication7\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula08 - Aluno\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula08 - Aluno\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.pdb

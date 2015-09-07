@@ -1,0 +1,10 @@
+C:\Users\Matheus\Desktop\aulas\Aula14\ControlesAvancados\ControlesAvancados\bin\ControlesAvancados.dll
+C:\Users\Matheus\Desktop\aulas\Aula14\ControlesAvancados\ControlesAvancados\bin\ControlesAvancados.pdb
+C:\Users\Matheus\Desktop\aulas\Aula14\ControlesAvancados\ControlesAvancados\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matheus\Desktop\aulas\Aula14\ControlesAvancados\ControlesAvancados\obj\Debug\ControlesAvancados.dll
+C:\Users\Matheus\Desktop\aulas\Aula14\ControlesAvancados\ControlesAvancados\obj\Debug\ControlesAvancados.pdb
+D:\Saulo\Aulas ASP.NET\Aula14 - Saulo\ControlesAvancados\ControlesAvancados\bin\ControlesAvancados.dll
+D:\Saulo\Aulas ASP.NET\Aula14 - Saulo\ControlesAvancados\ControlesAvancados\bin\ControlesAvancados.pdb
+D:\Saulo\Aulas ASP.NET\Aula14 - Saulo\ControlesAvancados\ControlesAvancados\obj\Debug\ResolveAssemblyReference.cache
+D:\Saulo\Aulas ASP.NET\Aula14 - Saulo\ControlesAvancados\ControlesAvancados\obj\Debug\ControlesAvancados.dll
+D:\Saulo\Aulas ASP.NET\Aula14 - Saulo\ControlesAvancados\ControlesAvancados\obj\Debug\ControlesAvancados.pdb

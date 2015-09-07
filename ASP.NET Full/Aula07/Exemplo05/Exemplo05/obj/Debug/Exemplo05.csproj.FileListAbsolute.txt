@@ -1,0 +1,7 @@
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula07 - Aluno\Exemplo05\Exemplo05\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula07 - Aluno\Exemplo05\Exemplo05\bin\Debug\Exemplo05.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula07 - Aluno\Exemplo05\Exemplo05\bin\Debug\Exemplo05.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula07 - Aluno\Exemplo05\Exemplo05\obj\Debug\Exemplo05.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula07 - Aluno\Exemplo05\Exemplo05\obj\Debug\Exemplo05.pdb
+D:\Saulo\Aulas ASP.NET\Aula07 - Aluno\Exemplo05\Exemplo05\obj\Debug\Exemplo05.exe
+D:\Saulo\Aulas ASP.NET\Aula07 - Aluno\Exemplo05\Exemplo05\obj\Debug\Exemplo05.pdb

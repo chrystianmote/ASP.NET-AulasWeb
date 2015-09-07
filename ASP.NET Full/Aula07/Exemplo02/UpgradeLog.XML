@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Exemplo02">
+</Property><Property Name="Solution File" Value="D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Exemplo02.sln">
+</Property><Property Name="User Options File" Value="D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Exemplo02.suo">
+</Property><Property Name="Date" Value="sábado, 21 de maio de 2011">
+</Property><Property Name="Time" Value="22:26">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Exemplo02.sln" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Exemplo02.suo" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02.suo">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Exemplo02.csproj" Description="Project file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02\Exemplo02.csproj">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Exemplo02.csproj.user" Description="Project user file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02\Exemplo02.csproj.user">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Program.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02\Program.cs">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula07 - Saulo\Exemplo02\Backup\Exemplo02\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Exemplo02.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Exemplo02" Source="Exemplo02\Exemplo02.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Exemplo02.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Exemplo02.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Exemplo02" Source="Exemplo02\Exemplo02.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

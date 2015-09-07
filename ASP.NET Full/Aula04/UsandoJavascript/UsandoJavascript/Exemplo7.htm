@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        {
+            var sairCalculadora = false;
+            while (sairCalculadora == false) {
+                document.write("<h1>Calculadora Científica</h1>");
+                //entrada de dados
+                var valor1 = window.prompt("Digite o primeiro valor:", "1");
+                var operador = window.prompt("Digite a operação (+, -, *, /):", "+");
+                if (operador != "+" && operador != "-" && operador != "*" && operador != "/") {
+                    alert("Operador inválido!");
+                    continue;
+                }
+                var valor2 = window.prompt("Digite o segundo valor:", "1");
+                //processamento
+                try {
+                    switch (operador) {
+                        case "+":
+                            var resultado = parseInt(valor1) + parseInt(valor2);
+                            break;
+                        case "-":
+                            var resultado = valor1 - valor2;
+                            break;
+                        case "*":
+                            var resultado = valor1 * valor2;
+                            break;
+                        case "/":
+                            var resultado = valor1 / valor2;
+                            break;
+                        default:
+                            var resultado = "(Operação Inválida!)";
+                    }
+                    throw ("Erro genérico");
+                }
+                catch (err) {
+                    document.write("Erro: " + err.description());
+                }
+
+                //saída
+                window.alert("O resultado da operação é " + resultado);
+                sairCalculadora = window.confirm("Deseja sair da calculadora?");
+                if (sairCalculadora == true) {
+                    document.write("<br/><b>Obrigado por usar a calculadora!</b>");
+                }
+            }
+        }
+
+    </script>
+
+</body>
+</html>

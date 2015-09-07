@@ -1,0 +1,5 @@
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula09 - Aluno\Exemplo02 POO\Exemplo02 POO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula09 - Aluno\Exemplo02 POO\Exemplo02 POO\bin\Debug\Exemplo02 POO.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula09 - Aluno\Exemplo02 POO\Exemplo02 POO\bin\Debug\Exemplo02 POO.pdb
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula09 - Aluno\Exemplo02 POO\Exemplo02 POO\obj\Debug\Exemplo02 POO.exe
+C:\Users\Saulo\Desktop\Aulas Saulo\Aula09 - Aluno\Exemplo02 POO\Exemplo02 POO\obj\Debug\Exemplo02 POO.pdb

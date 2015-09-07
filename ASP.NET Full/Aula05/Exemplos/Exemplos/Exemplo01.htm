@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function somar(a, b) {
+            return parseFloat(a) + parseFloat(b);
+        }
+        function dividir(a, b) {
+            return (parseFloat(a) + parseFloat(b)) / 2;
+        }
+        function ObterIMC(peso, altura) {
+            return (parseFloat(peso) /
+                (parseFloat(altura) * parseFloat(altura)));
+        }
+        function CalcularIMC() {
+        
+            var p = window.prompt("Qual o seu peso em KG?", 80);
+            var a = window.prompt("Qual a sua alrura em metros?", 1.8);
+            var imc = ObterIMC(p, a);
+            window.alert("Seu IMC é " + imc + ".");
+        }
+        //IMC = Peso dividido pela altura vezes a altura
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        document.write(somar(5, 25));
+    </script>
+    <button onclick="alert(somar(5,25));">Clique aqui para a soma!</button>
+    <button onclick="alert(dividir(13,27));">Clique aqui para a média!</button>
+    <button onclick="CalcularIMC();">Clique aqui para o IMC!</button>
+</body>
+</html>

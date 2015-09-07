@@ -1,0 +1,10 @@
+C:\Users\Saulo\Desktop\Aula03 - Aluno\UsandoCSS\UsandoCSS\bin\UsandoCSS.dll
+C:\Users\Saulo\Desktop\Aula03 - Aluno\UsandoCSS\UsandoCSS\bin\UsandoCSS.pdb
+C:\Users\Saulo\Desktop\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.dll
+C:\Users\Saulo\Desktop\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.pdb
+I:\Saulo\Aulas ASP.NET\Aula03 - Aluno\UsandoCSS\UsandoCSS\bin\UsandoCSS.dll
+I:\Saulo\Aulas ASP.NET\Aula03 - Aluno\UsandoCSS\UsandoCSS\bin\UsandoCSS.pdb
+I:\Saulo\Aulas ASP.NET\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\ResolveAssemblyReference.cache
+I:\Saulo\Aulas ASP.NET\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.dll
+I:\Saulo\Aulas ASP.NET\Aula03 - Aluno\UsandoCSS\UsandoCSS\obj\Debug\UsandoCSS.pdb

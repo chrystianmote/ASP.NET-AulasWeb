@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <script type="text/javascript">
+
+        var vetor = new Array(32, 34, 37, 40, 45, 48, 49);
+
+        for (var x in vetor)
+            document.write(vetor[x] + " ");
+
+        document.write("<br/>");
+
+        document.write(vetor.length + "<br/>");
+        document.write(vetor.pop() + "<br/>");
+        document.write(vetor.length + "<br/>");
+        document.write(vetor.shift() + "<br/>");
+        document.write(vetor.length + "<br/>");
+        document.write(vetor[3] + "<br/>");
+
+        vetor.push(50);
+        vetor.unshift(30);
+
+        document.write(vetor.length + "<br/>");
+
+        for (var x in vetor)
+            document.write(vetor[x] + " ");
+
+        document.write("<br/>");
+        var outroVetor = vetor.slice(3, 5);
+        for (var x in outroVetor)
+            document.write(outroVetor[x] + " ");
+
+        document.write("<br/>");
+        var outroVetor = vetor.reverse();
+        for (var x in outroVetor)
+            document.write(outroVetor[x] + " ");
+
+        document.write("<br/>");
+        document.write(outroVetor.join(" - "));
+        
+    </script>
+
+</body>
+</html>

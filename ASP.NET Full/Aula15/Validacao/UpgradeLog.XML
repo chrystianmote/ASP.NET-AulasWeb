@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Validacao">
+</Property><Property Name="Solution File" Value="D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Validacao.sln">
+</Property><Property Name="User Options File" Value="D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Validacao.suo">
+</Property><Property Name="Date" Value="sábado, 7 de agosto de 2010">
+</Property><Property Name="Time" Value="19:50">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Validacao.sln" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Validacao.suo" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao.suo">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Validacao.csproj" Description="Project file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Validacao.csproj">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Validacao.csproj.user" Description="Project user file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Validacao.csproj.user">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Default.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Default.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Exercicio01.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Exercicio01.aspx.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Exercicio01.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Exercicio01.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\ExpressoesRegulares.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\ExpressoesRegulares.aspx.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\ExpressoesRegulares.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\ExpressoesRegulares.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Default.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Default.aspx">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Exercicio01.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Exercicio01.aspx">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\ExpressoesRegulares.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\ExpressoesRegulares.aspx">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\iconerror.GIF" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\iconerror.GIF">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Web.config" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula15 - Saulo\Validacao\Backup\Validacao\Web.config">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Validacao.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Validacao" Source="Validacao\Validacao.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Validacao.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Validacao.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Validacao" Source="Validacao\Validacao.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

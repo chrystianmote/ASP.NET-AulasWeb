@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function obterResposta() {
+            prompt("Pegunta desejada:", "Vou ficar rico?");
+            var r = Math.random();
+            if (r > 0.5) {
+                alert("Sim!");
+            }
+            else {
+                alert("Não...");
+            }
+        }
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        var num = 34.6789;
+        document.write(num.toFixed(2));
+
+        document.write("<br/>");
+        var rnd = Math.random();
+        document.write(rnd);
+    </script>
+    
+    <button onclick="obterResposta();" title="nao clique">Perguntar ao Oráculo!</button>
+</body>
+</html>

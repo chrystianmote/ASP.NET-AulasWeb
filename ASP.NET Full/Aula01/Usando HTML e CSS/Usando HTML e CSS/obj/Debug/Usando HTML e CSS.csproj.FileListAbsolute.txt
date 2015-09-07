@@ -1,0 +1,5 @@
+C:\Users\Saulo\Desktop\Aula01 - Aluno\Usando HTML e CSS\Usando HTML e CSS\bin\Usando HTML e CSS.dll
+C:\Users\Saulo\Desktop\Aula01 - Aluno\Usando HTML e CSS\Usando HTML e CSS\bin\Usando HTML e CSS.pdb
+C:\Users\Saulo\Desktop\Aula01 - Aluno\Usando HTML e CSS\Usando HTML e CSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Saulo\Desktop\Aula01 - Aluno\Usando HTML e CSS\Usando HTML e CSS\obj\Debug\Usando HTML e CSS.dll
+C:\Users\Saulo\Desktop\Aula01 - Aluno\Usando HTML e CSS\Usando HTML e CSS\obj\Debug\Usando HTML e CSS.pdb

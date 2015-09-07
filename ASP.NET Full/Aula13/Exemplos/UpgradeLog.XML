@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ExemplosAula13Tarde">
+</Property><Property Name="Solution File" Value="D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\ExemplosAula13Tarde.sln">
+</Property><Property Name="User Options File" Value="D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\ExemplosAula13Tarde.suo">
+</Property><Property Name="Date" Value="quarta-feira, 16 de junho de 2010">
+</Property><Property Name="Time" Value="21:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ExemplosAula13Tarde.sln" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ExemplosAula13Tarde.suo" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde.suo">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\ExemplosAula13Tarde.csproj" Description="Project file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\ExemplosAula13Tarde.csproj">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\ExemplosAula13Tarde.csproj.user" Description="Project user file successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\ExemplosAula13Tarde.csproj.user">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Catalogo.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Catalogo.aspx.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Catalogo.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Catalogo.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Default.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Default.aspx.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Default.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Default.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\DetalhesProduto.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\DetalhesProduto.aspx.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\DetalhesProduto.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\DetalhesProduto.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Global.asax.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Global.asax.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina1.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina1.aspx.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina1.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina1.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina2.aspx.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina2.aspx.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina2.aspx.designer.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina2.aspx.designer.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pessoa.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pessoa.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Produto.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Produto.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Catalogo.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Catalogo.aspx">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Default.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Default.aspx">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\DetalhesProduto.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\DetalhesProduto.aspx">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Global.asax" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Global.asax">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina1.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina1.aspx">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Pagina2.aspx" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Pagina2.aspx">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\Web.config" Description="File successfully backed up as D:\Saulo\Aulas ASP.NET\Aula13 - Saulo\Exemplos\Backup\ExemplosAula13Tarde\Web.config">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\ExemplosAula13Tarde.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\ExemplosAula13Tarde.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ExemplosAula13Tarde.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ExemplosAula13Tarde.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExemplosAula13Tarde" Source="ExemplosAula13Tarde\ExemplosAula13Tarde.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

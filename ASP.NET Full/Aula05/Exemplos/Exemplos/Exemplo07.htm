@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+    <script type="text/javascript">
+        function EsconderDiv() {
+            //document.getElementById("divTeste").style.display = "none";
+            document.getElementById("divTeste").style.visibility = "hidden";
+        }
+        function MostrarDiv() {
+            //document.getElementById("divTeste").style.display = "block";
+            document.getElementById("divTeste").style.visibility = "visible";
+        }
+    </script>
+</head>
+<body>
+    <div id="divTeste" style="height:200px;width:300px;border:solid 2px black;background-color:blue">
+    </div>
+    <button onclick="EsconderDiv();">Esconder Div</button>
+    <button onclick="MostrarDiv();">Mostrar Div</button>
+    <button onmouseover="MostrarDiv();" onmouseout="EsconderDiv();">Menu</button>
+</body>
+</html>

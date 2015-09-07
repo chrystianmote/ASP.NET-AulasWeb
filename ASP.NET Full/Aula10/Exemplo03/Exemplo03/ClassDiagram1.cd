@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Exemplo03.Program" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exemplo03.Veiculo">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAQAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Veiculo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exemplo03.Carro">
+    <Position X="2" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAEAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAI=</HashCode>
+      <FileName>Carro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exemplo03.Aviao">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAEIAACACAA=</HashCode>
+      <FileName>Aviao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exemplo03.Terrestre">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Terrestre.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exemplo03.Aereo">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Aereo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Exemplo03.TipoDecolagemVeiculoAereo">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoDecolagemVeiculoAereo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Exemplo03.TipoPropulsaoAviao">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAA=</HashCode>
+      <FileName>TipoPropulsaoAviao.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

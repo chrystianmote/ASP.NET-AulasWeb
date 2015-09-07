@@ -1,0 +1,5 @@
+C:\Users\Matheus\Desktop\Aula01 - Aluno\UsandoHTML\UsandoHTML\bin\UsandoHTML.dll
+C:\Users\Matheus\Desktop\Aula01 - Aluno\UsandoHTML\UsandoHTML\bin\UsandoHTML.pdb
+C:\Users\Matheus\Desktop\Aula01 - Aluno\UsandoHTML\UsandoHTML\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matheus\Desktop\Aula01 - Aluno\UsandoHTML\UsandoHTML\obj\Debug\UsandoHTML.dll
+C:\Users\Matheus\Desktop\Aula01 - Aluno\UsandoHTML\UsandoHTML\obj\Debug\UsandoHTML.pdb

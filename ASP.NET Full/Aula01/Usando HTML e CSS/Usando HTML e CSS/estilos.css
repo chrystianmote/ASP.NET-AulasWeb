@@ -1,0 +1,49 @@
+﻿        h1
+        {
+          font-size:48px;
+          text-align:center;
+          border:dotted 2px Blue;  
+        }
+        h2
+        {
+          font-size:36px;
+          text-align:center;
+          border:dotted 1px Green;
+        }
+        table thead
+        {
+          background-color:Silver;
+        }
+        table body
+        {
+            background-color:White;
+        }
+        table tfoot
+        {
+            background-color:Gray;
+        }
+        div p
+        {
+            text-decoration:underline;
+        }
+        .minhaClasse
+        {
+            font-style:italic;
+            font-size:20px;
+            border:dotted 3px Red;
+            padding:10px;
+        }
+        p.classeparagrafo
+        {
+            text-decoration:line-through;
+            color:Red;
+        }
+        #areaRelogio
+        {
+            position:absolute;
+            right:10px;
+            top:10px;
+            width:200px;
+            padding:10px;
+            border:solid 3px Red;
+        }
